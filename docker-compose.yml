@@ -1,0 +1,32 @@
+version: '3.4'
+
+services:
+  db:
+    image: postgres
+    build: 
+      context: .
+      dockerfile: ./db_Dockerfile
+    environment:
+    # TODO CHANGE PASSWORD LATER or use .env file for password
+      - POSTGRES_PASSWORD=1234
+      - POSTGRES_USER=sa
+      - POSTGRES_DB=notas
+    ports:
+      - 5432:5432
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+
+  backend:
+    image: backend
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - xml:/app/xml
+  
+
+volumes:
+  xml:
+  db_data:
+

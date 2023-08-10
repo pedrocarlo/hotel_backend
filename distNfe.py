@@ -5,7 +5,7 @@ from pynfe.utils.descompactar import DescompactaGzip
 from pynfe.utils.flags import NAMESPACE_NFE
 from lxml import etree
 from utils import Certificado
-from sefaz.baixarChaves import escrever_chaves, ler_chaves
+from baixarChaves import escrever_chaves, ler_chaves
 import traceback
 
 chaves = ler_chaves()

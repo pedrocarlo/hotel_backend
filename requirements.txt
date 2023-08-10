@@ -1,0 +1,15 @@
+certifi==2023.7.22
+cffi==1.15.1
+charset-normalizer==3.2.0
+cryptography==41.0.3
+greenlet==2.0.2
+idna==3.4
+lxml==4.9.3
+pycparser==2.21
+PyNFe==0.4.3
+pyOpenSSL==23.2.0
+requests==2.31.0
+signxml==2.10.1
+SQLAlchemy==2.0.19
+typing_extensions==4.7.1
+urllib3==2.0.4
