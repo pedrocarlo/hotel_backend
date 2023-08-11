@@ -1,0 +1,13 @@
+<resNFe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.01">
+  <chNFe>35230747978428000177550010001801781000458846</chNFe>
+  <CNPJ>47978428000177</CNPJ>
+  <xNome>SALES DISTRIBUIDORA LTDA</xNome>
+  <IE>136871207117</IE>
+  <dhEmi>2023-07-07T16:36:00-03:00</dhEmi>
+  <tpNF>1</tpNF>
+  <vNF>3509.10</vNF>
+  <digVal>/+25Ruze5lfTDdL4mnj5us132/s=</digVal>
+  <dhRecbto>2023-07-07T16:37:17-03:00</dhRecbto>
+  <nProt>135231080156614</nProt>
+  <cSitNFe>1</cSitNFe>
+</resNFe>

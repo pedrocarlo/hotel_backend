@@ -5,7 +5,7 @@ services:
     image: postgres
     build: 
       context: .
-      dockerfile: ./db_Dockerfile
+      dockerfile: ./Dockerfile_db
     environment:
     # TODO CHANGE PASSWORD LATER or use .env file for password
       - POSTGRES_PASSWORD=1234
@@ -22,6 +22,8 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
+    stdin_open: true 
+    tty: true
     volumes:
       - xml:/app/xml
   
