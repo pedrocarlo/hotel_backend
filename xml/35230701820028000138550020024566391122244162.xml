@@ -1,0 +1,13 @@
+<resNFe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.01">
+  <chNFe>35230701820028000138550020024566391122244162</chNFe>
+  <CNPJ>01820028000138</CNPJ>
+  <xNome>KOZZY ALIMENTOS LTDA</xNome>
+  <IE>442350059118</IE>
+  <dhEmi>2023-07-11T19:13:00-03:00</dhEmi>
+  <tpNF>1</tpNF>
+  <vNF>524.23</vNF>
+  <digVal>NWsYUkPURd/S/OTu6Vlze/cyzRI=</digVal>
+  <dhRecbto>2023-07-11T19:13:20-03:00</dhRecbto>
+  <nProt>135231106384600</nProt>
+  <cSitNFe>1</cSitNFe>
+</resNFe>

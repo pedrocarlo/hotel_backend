@@ -1,0 +1,13 @@
+<resNFe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.01">
+  <chNFe>35230600221990000198550010001882981020222272</chNFe>
+  <CNPJ>00221990000198</CNPJ>
+  <xNome>INDUSTRIA DE PRODUTOS ALIMENTICIOS JO-BRAS LTDA</xNome>
+  <IE>114111895110</IE>
+  <dhEmi>2023-06-14T00:00:00-03:00</dhEmi>
+  <tpNF>1</tpNF>
+  <vNF>750.00</vNF>
+  <digVal>JD7GvN4jX7mbZuDV8fZkGGNf6aA=</digVal>
+  <dhRecbto>2023-06-14T11:34:57-03:00</dhRecbto>
+  <nProt>135230929013358</nProt>
+  <cSitNFe>1</cSitNFe>
+</resNFe>

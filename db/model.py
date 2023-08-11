@@ -20,10 +20,11 @@ class Nfe(Base):
     nome = Column("nome", String)
     total = Column("total", Float)
     date = Column("date", DateTime)
-    resumida = Column("resumida", Boolean)
+    completa = Column("completa", Boolean)
     # TODO no futuro se quiser saber qual tipo de manifestacao foi feita adicionar check aqui para todas as operacoes
     # TODO por enquanto so vai ser utilizado ciencda emissao ou operacao para notas mais antigas
     manifestada = Column("manifestada", Boolean)
+    desbravador = Column("desbravador", Boolean)  # foi adicionado no desbravador ou nao
 
     def __init__(
         self,
@@ -32,19 +33,24 @@ class Nfe(Base):
         nome: str,
         total: float,
         date: datetime.datetime,
-        resumida: bool,
-        manifestada: bool,
+        completa: bool = False,
+        manifestada: bool = False,
+        desbravador: bool = False,
     ):
         self.chave = chave
         self.cnpj = cnpj
         self.nome = nome
         self.total = total
         self.date = date
-        self.resumida = resumida
+        self.completa = completa
         self.manifestada = manifestada
+        self.desbravador = desbravador
 
     def __repr__(self):
-        return f"{self.chave[:10]} {self.cnpj} {self.nome[:15]} {self.date} {'resumida' if self.resumida else 'completa'} manifestada:{self.manifestada}"
+        return f"{self.chave[:10]} {self.cnpj} {self.nome[:15]} {self.date} \
+              {'resumida' if self.completa else 'completa'} \
+                manifestada:{self.manifestada} \
+                desbravador:{self.desbravador}"
 
 
 class User(Base):

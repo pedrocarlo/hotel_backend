@@ -2,7 +2,9 @@ version: '3.4'
 
 services:
   db:
+    container_name: postgres
     image: postgres
+    restart: always
     build: 
       context: .
       dockerfile: ./Dockerfile_db
@@ -16,9 +18,26 @@ services:
     volumes:
       - db_data:/var/lib/postgresql/data
 
+  pgadmin:
+    container_name: pgadmin4_container
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: root
+    ports:
+      - "5050:80"
+
 
   backend:
+    container_name: backend
     image: backend
+    restart: always
+    environment:
+    # TODO change this afterwards to just read from .env file
+      - DATABASE_URL=postgresql+psycopg2://sa:1234@db:5432
+    # command: bash -c "alembic upgrade head && 
+    #   uvicorn main:app --host 0.0.0.0 --port 8000 --reload"
     build:
       context: .
       dockerfile: ./Dockerfile
