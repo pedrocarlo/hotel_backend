@@ -1,0 +1,320 @@
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+    <infNFe Id="NFe35230665579336000104550000006708761851887515" versao="4.00">
+      <ide>
+        <cUF>35</cUF>
+        <cNF>85188751</cNF>
+        <natOp>VENDA DE MERCADORIAS SUJEITA AO REGIME DE S.T. - SUBSTITUIDO</natOp>
+        <mod>55</mod>
+        <serie>0</serie>
+        <nNF>670876</nNF>
+        <dhEmi>2023-06-21T17:10:00-03:00</dhEmi>
+        <dhSaiEnt>2023-06-22T17:10:00-03:00</dhSaiEnt>
+        <tpNF>1</tpNF>
+        <idDest>1</idDest>
+        <cMunFG>3513801</cMunFG>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>5</cDV>
+        <tpAmb>1</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>9</indPres>
+        <indIntermed>1</indIntermed>
+        <procEmi>0</procEmi>
+        <verProc>1.3.229.015</verProc>
+      </ide>
+      <emit>
+        <CNPJ>65579336000104</CNPJ>
+        <xNome>AVONA REPRESENTACOES COMERCIAIS LTDA</xNome>
+        <xFant>AVONA</xFant>
+        <enderEmit>
+          <xLgr>RUA PARAOPEBA (JD TIJUCO)</xLgr>
+          <nro>82</nro>
+          <xBairro>TABOAO</xBairro>
+          <cMun>3513801</cMun>
+          <xMun>DIADEMA</xMun>
+          <UF>SP</UF>
+          <CEP>09932080</CEP>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+          <fone>1140915219</fone>
+        </enderEmit>
+        <IE>286179247110</IE>
+        <CRT>3</CRT>
+      </emit>
+      <dest>
+        <CNPJ>51548782000139</CNPJ>
+        <xNome>LIBLANCO EMPREENDIMENTOS IMOBILIARIOS SC</xNome>
+        <enderDest>
+          <xLgr>RUAFREI CANECA 1006</xLgr>
+          <nro>0</nro>
+          <xBairro>CERQUEIRA CESAR</xBairro>
+          <cMun>3550308</cMun>
+          <xMun>SAO PAULO</xMun>
+          <UF>SP</UF>
+          <CEP>01307002</CEP>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+          <fone>11999093170</fone>
+        </enderDest>
+        <indIEDest>9</indIEDest>
+        <email>meire@saogabriel.com.br</email>
+      </dest>
+      <autXML>
+        <CNPJ>32346704000107</CNPJ>
+      </autXML>
+      <autXML>
+        <CNPJ>07385111000102</CNPJ>
+      </autXML>
+      <det nItem="1">
+        <prod>
+          <cProd>22503</cProd>
+          <cEAN>7899916904853</cEAN>
+          <xProd>NAT ONE 1500ML AMBIENTE LARANJA 1500ML</xProd>
+          <NCM>20091200</NCM>
+          <CEST>1701000</CEST>
+          <indEscala>S</indEscala>
+          <CFOP>5405</CFOP>
+          <uCom>UN</uCom>
+          <qCom>60.0000</qCom>
+          <vUnCom>13.4900000000</vUnCom>
+          <vProd>809.40</vProd>
+          <cEANTrib>7899916904853</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>60.0000</qTrib>
+          <vUnTrib>13.4900000000</vUnTrib>
+          <indTot>1</indTot>
+          <xPed>900106479</xPed>
+          <nItemPed>1</nItemPed>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+            </ICMS60>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPITrib>
+              <CST>99</CST>
+              <vBC>0.00</vBC>
+              <pIPI>0.0000</pIPI>
+              <vIPI>0.00</vIPI>
+            </IPITrib>
+          </IPI>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>809.40</vBC>
+              <pPIS>1.6500</pPIS>
+              <vPIS>13.36</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>809.40</vBC>
+              <pCOFINS>7.6000</pCOFINS>
+              <vCOFINS>61.51</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="2">
+        <prod>
+          <cProd>22502</cProd>
+          <cEAN>7899916904884</cEAN>
+          <xProd>NAT ONE 1500ML AMBIENTE UVA 1500ML</xProd>
+          <NCM>20099000</NCM>
+          <CEST>1701000</CEST>
+          <indEscala>S</indEscala>
+          <CFOP>5405</CFOP>
+          <uCom>UN</uCom>
+          <qCom>30.0000</qCom>
+          <vUnCom>15.9900000000</vUnCom>
+          <vProd>479.70</vProd>
+          <cEANTrib>7899916904884</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>30.0000</qTrib>
+          <vUnTrib>15.9900000000</vUnTrib>
+          <indTot>1</indTot>
+          <xPed>900106479</xPed>
+          <nItemPed>2</nItemPed>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+            </ICMS60>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPITrib>
+              <CST>99</CST>
+              <vBC>0.00</vBC>
+              <pIPI>0.0000</pIPI>
+              <vIPI>0.00</vIPI>
+            </IPITrib>
+          </IPI>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>479.70</vBC>
+              <pPIS>1.6500</pPIS>
+              <vPIS>7.92</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>479.70</vBC>
+              <pCOFINS>7.6000</pCOFINS>
+              <vCOFINS>36.46</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>0.00</vBC>
+          <vICMS>0.00</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vFCP>0.00</vFCP>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vFCPST>0.00</vFCPST>
+          <vFCPSTRet>0.00</vFCPSTRet>
+          <vProd>1289.10</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vIPIDevol>0.00</vIPIDevol>
+          <vPIS>21.28</vPIS>
+          <vCOFINS>97.97</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>1289.10</vNF>
+          <vTotTrib>0.00</vTotTrib>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>9</modFrete>
+        <vol>
+          <qVol>90</qVol>
+          <nVol>90</nVol>
+          <pesoL>135.000</pesoL>
+          <pesoB>140.400</pesoB>
+        </vol>
+      </transp>
+      <cobr>
+        <fat>
+          <nFat>670876</nFat>
+          <vOrig>1289.10</vOrig>
+          <vDesc>0</vDesc>
+          <vLiq>1289.10</vLiq>
+        </fat>
+        <dup>
+          <nDup>001</nDup>
+          <dVenc>2023-06-26</dVenc>
+          <vDup>1289.10</vDup>
+        </dup>
+      </cobr>
+      <pag>
+        <detPag>
+          <indPag>1</indPag>
+          <tPag>99</tPag>
+          <xPag>OUTROS</xPag>
+          <vPag>1289.10</vPag>
+        </detPag>
+      </pag>
+      <infIntermed>
+        <CNPJ>10766206000180</CNPJ>
+        <idCadIntTran>Maxima Sistemas de Informatica SA</idCadIntTran>
+      </infIntermed>
+      <infAdic>
+        <infCpl>PEDIDO: 900106479 TRANS. 757893 CARGA: 30181//VEICULO: 11 - R11-CUD-6762 MOT.: 103 ALEX SANDRO//CODCLI.: 5359 - VEND.: 9001 - EZEQUIEL CODBRANCA: 8859//ORDEM DE COMPRA://OBSERVACOES ENTREGA:</infCpl>
+      </infAdic>
+      <infRespTec>
+        <CNPJ>07577599000501</CNPJ>
+        <xContato>TOTVS BRASILIA SOFTWARE - UNIDADE GOIANIA LTDA</xContato>
+        <email>resp_tecnico_dfe_winthor@totvs.com.br</email>
+        <fone>06232500200</fone>
+      </infRespTec>
+    </infNFe>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <Reference URI="#NFe35230665579336000104550000006708761851887515">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+          <DigestValue>2QlV7Eu6MG93oqChgH5zWJQx6x8=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>Af18WFacALsM+5yH/ZYwPJv5YSZnNQ33JeLStWZ+K9oncTnID5/qtX0UIffsPlRKTpdJuDNzC6TF
+MkcwXOa2c+OhBn8LSfDX71axX5GyjAB8TaEsHoM/yxO3BAVCqn8AZCp9n87W5BI467RPHd4LukPl
++kHZnCmSlmH3AA/aldk1m0JLbE4LGFOKgj2dDdfWG6wKDiTcG7FHQ5Vebt71pLkvwuRNtb+pOZH1
+wOa95sg/+uTz/CkCoLcKkMJZc3BWOJs0kyspRVgNMJSkgidFs4bPvkZ3Z9aXz0w40/W3C1D6iyeQ
+SFDHVBsVM38l0F79yIRt6+uuIwpSnLLXSY6Ldg==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>MIIH/DCCBeSgAwIBAgIQMsc5sjHk2HfObFGM4/k4tTANBgkqhkiG9w0BAQsFADB1MQswCQYDVQQG
+EwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBkYSBSZWNlaXRh
+IEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRkwFwYDVQQDExBBQyBTSU5DT1IgUkZCIEc1MB4XDTIy
+MTIxNTE5MTIyM1oXDTIzMTIxNTE5MTIyM1owggEDMQswCQYDVQQGEwJCUjETMBEGA1UECgwKSUNQ
+LUJyYXNpbDELMAkGA1UECAwCU1AxEDAOBgNVBAcMB0RpYWRlbWExGTAXBgNVBAsMEFZpZGVvQ29u
+ZmVyZW5jaWExFzAVBgNVBAsMDjY2NTA3MDU0MDAwMTU2MTYwNAYDVQQLDC1TZWNyZXRhcmlhIGRh
+IFJlY2VpdGEgRmVkZXJhbCBkbyBCcmFzaWwgLSBSRkIxFjAUBgNVBAsMDVJGQiBlLUNOUEogQTEx
+PDA6BgNVBAMMM0FWT05BIFJFUFJFU0VOVEFDT0VTIENPTUVSQ0lBSVMgTFREQTo2NTU3OTMzNjAw
+MDEwNDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALMBbwuOXZRZuB+yGou2Aiku2UkB
+MW8qBopsBcpGbrSOvFaQ2V+fsc2Swx6Y+YCj/HVy5Wy51WSIZtx1eY0kolGkaaQBcZHIbBz1IGRv
+zlJltCBjkpEqyjI2sOcH3BChASuLcfYfhs18DaaWFgkSu9GpXdbKAMw4gptoIixu56qSdOaAu0Lk
+cPgQ5rxQ0bKjDfIUJt0+V1MG8zVx7xq8cwkjfwvlczR34XmzePyziOjXsm2CXT4LSf3hAxfvRGEZ
+LUUo+3AVOn2RJGEXZ8ttUF59d7F7uYYfFf1//TFYf3c3AdMDdoaJkCWc38zQd5NqDVrnCLVpbEj1
+rDhgvair7QkCAwEAAaOCAvYwggLyMIG5BgNVHREEgbEwga6gPQYFYEwBAwSgNAQyMjcxMjE5Nzgy
+NTk4MDE3NzgxNzAwMDAwMDAwMDAwMDAwMDAwMDMwMDIwNzY1U1NQU1CgIQYFYEwBAwKgGAQWUk9E
+UklHTyBTQUNPTUFOTyBBVk9OQaAZBgVgTAEDA6AQBA42NTU3OTMzNjAwMDEwNKAXBgVgTAEDB6AO
+BAwwMDAwMDAwMDAwMDCBFmZlbGlwZUBjb252aXRhYy5jb20uYnIwCQYDVR0TBAIwADAfBgNVHSME
+GDAWgBRn50IRvvI4BhVJD4f/2gXeXY6UIjB4BgNVHSAEcTBvMG0GBmBMAQIBHDBjMGEGCCsGAQUF
+BwIBFlVodHRwOi8vaWNwLWJyYXNpbC5hY3NpbmNvci5jb20uYnIvcmVwb3NpdG9yaW8vZHBjL0FD
+X1NJTkNPUl9SRkIvRFBDX0FDX1NJTkNPUl9SRkIucGRmMIG2BgNVHR8Ega4wgaswVKBSoFCGTmh0
+dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FDU0lOQ09S
+UkZCRzUvTGF0ZXN0Q1JMLmNybDBToFGgT4ZNaHR0cDovL2ljcC1icmFzaWwub3V0cmFsY3IuY29t
+LmJyL3JlcG9zaXRvcmlvL2xjci9BQ1NJTkNPUlJGQkc1L0xhdGVzdENSTC5jcmwwDgYDVR0PAQH/
+BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCBpQYIKwYBBQUHAQEEgZgwgZUw
+WwYIKwYBBQUHMAKGT2h0dHA6Ly9pY3AtYnJhc2lsLmFjc2luY29yLmNvbS5ici9yZXBvc2l0b3Jp
+by9jZXJ0aWZpY2Fkb3MvQUNfU0lOQ09SX1JGQl9HNS5wN2MwNgYIKwYBBQUHMAGGKmh0dHA6Ly9v
+Y3NwLWFjLXNpbmNvci1yZmIuY2VydGlzaWduLmNvbS5icjANBgkqhkiG9w0BAQsFAAOCAgEAuT74
+WWEw4wIlgDttMQODTZ04CVPF7AuzfuWBZWHNrK1laq1bZS2WAOGzWC/gKyPMtKp3XFfxKWlRF/5s
+dOQbtIoeKGLydTcMMyVA352vVGsyj/s1E+p6OU55q7v+VJP91UoE92T4ucLBh9+AL4zKt9mYVFhP
+Wi3Ce3v0bhMQu9OAnxR2ozFWSjCsBwmLgUufV4RDKAYH3FXKOq4ifND15yeUDyh4ctrvSqGE96s+
+j3W8ks6fg+CWyR5IqvtGefYkfOyXCaFNZz/tSunxOns/mj3DqNJrGDm77CWGzYJXuV4BWzFregvb
+l/X5WOpIlepEbcnxlh40TD9E0TNemy143JmjJqPlPw14qUqRar+CMZyJhSO/36zYA4hh3F35J5CN
+FcJXcXeGhQENnQdisPlHCia/VeKmYTLSJiLWuk5szCePAhxtLYS4x50T5e+sask88oPj0eUWowg7
+Kkm62R68pRubtwVLejg9ruOgRr5hewLAph1GwNLuoK5NbVUMXsw7sSHXwI++nuPbkuSv+JZ6b5eh
+5ovPldda9K8lmDsujmj/SkUpXqhczIjZ/30o+GIjgonJqWzqHrH/YEVMlkwM7eVxOb+qaeSBPPcD
+Q+/xxPDVJYciB2WRY+ELuj+Oon+nmbObKd2CZqNSF+85I/PO5pXWswkuVqIHfGPpRUHnZdo=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe versao="4.00">
+    <infProt Id="Id135230976423042">
+      <tpAmb>1</tpAmb>
+      <verAplic>SP_NFE_PL009_V4</verAplic>
+      <chNFe>35230665579336000104550000006708761851887515</chNFe>
+      <dhRecbto>2023-06-21T17:18:29-03:00</dhRecbto>
+      <nProt>135230976423042</nProt>
+      <digVal>2QlV7Eu6MG93oqChgH5zWJQx6x8=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+  </protNFe>
+</nfeProc>

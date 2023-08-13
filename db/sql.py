@@ -1,9 +1,9 @@
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, select
 from sqlalchemy.orm import sessionmaker
 import os
 from os import path
 import locale
-from model import User, Nfe
+from db.model import User, Nfe
 from sefaz.xml_parser import get_tags
 
 locale.setlocale(locale.LC_TIME, "pt_BR.UTF-8")
@@ -28,7 +28,13 @@ print(engine)
 Session = sessionmaker(bind=engine)
 
 
-def insert_xml_from_folder(folder):
+def get_xml_chave(chave: str):
+    with Session() as session:
+        session.scalars(select(Nfe).where(Nfe.chave == chave)).one()
+        pass
+
+
+def insert_xml_from_folder(folder) -> Nfe:
     session = Session()
     try:
         files = os.listdir(folder)
@@ -42,4 +48,4 @@ def insert_xml_from_folder(folder):
         session.close()
 
 
-insert_xml_from_folder(cwd + "/" + "xml")
+# insert_xml_from_folder(cwd + "/" + "xml/completa")

@@ -15,15 +15,16 @@ def get_tags(filepath):
 
     chave: str = resposta.xpath("//ns:chNFe", namespaces=ns)[0].text
     cnpj: str = resposta.xpath("//ns:CNPJ", namespaces=ns)[0].text
-    nome: str = resposta.xpath("//ns:xNome", namespaces=ns)[0].text
+    nome: str = resposta.xpath("//ns:xNome", namespaces=ns)[0].text.upper()
     total = float(resposta.xpath("//ns:vNF", namespaces=ns)[0].text)
     date: datetime = datetime.fromisoformat(
         resposta.xpath("//ns:dhEmi", namespaces=ns)[0].text
     )
     resumida: bool = True if resposta.xpath("//ns:resNFe", namespaces=ns) else False
-    completa: bool = (
-        True if resposta.xpath("//ns:procEventoNFe", namespaces=ns) else False
-    )
+    completa: bool = True if resposta.xpath("//ns:nfeProc", namespaces=ns) else False
+    manifestada: bool = completa
 
-    nota = Nfe(chave, cnpj, nome, total, date, completa)
+    nota = Nfe(
+        chave, cnpj, nome, total, date, filepath, completa, manifestada=manifestada
+    )
     return nota
