@@ -1,3 +1,0 @@
-[submodule "hotel_api"]
-	path = hotel_api
-	url = git@github.com:pedrocarlo/hotel_api.git
