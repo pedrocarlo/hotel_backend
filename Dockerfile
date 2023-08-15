@@ -9,7 +9,7 @@ ENV PYTHONUNBUFFERED=1
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN 
-RUN apk update && apk add gcc libpq-dev build-base tzdata \
+RUN apk update && apk add gcc libpq-dev build-base tzdata bash libc6-compat\
     && rm -rf /var/lib/apt/lists/* && \
     cp /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
 
@@ -33,15 +33,20 @@ RUN python -m pip install -r requirements.txt
 WORKDIR /app
 COPY . /app
 
+
 ENV PYTHONPATH /app
 ENV DATABASE_URL=postgresql+psycopg2://sa:1234@db:5432/notas
 
 # RUN alembic revision --autogenerate -m "First migration"
+RUN alembic_setup.sh
+
 
 # Creates a non-root user with an explicit UID and adds permission to access the /app folder
 # For more info, please refer to https://aka.ms/vscode-docker-python-configure-containers
 RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
 USER appuser
 
+# COPY alembic_env.py dest
 # During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
-CMD alembic upgrade head && python ./api/main.py
+CMD alembic upgrade head && python ./hotel_api/main.py
+# CMD python ./hotel_api/main.py
