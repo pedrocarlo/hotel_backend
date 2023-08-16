@@ -4,9 +4,9 @@ from pynfe.processamento.comunicacao import ComunicacaoSefaz
 from pynfe.utils.descompactar import DescompactaGzip
 from pynfe.utils.flags import NAMESPACE_NFE
 from lxml import etree
-from utils import Certificado
-from baixarChaves import ler_chaves
-from xml_parser import get_tags
+from sefaz.utils import Certificado
+from sefaz.baixarChaves import ler_chaves
+from sefaz.xml_parser import get_tags
 import traceback
 
 chaves = ler_chaves()

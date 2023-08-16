@@ -38,7 +38,7 @@ ENV PYTHONPATH /app
 
 # RUN ./alembic_setup.sh
 
-
+COPY ./celery /app/celery
 # Creates a non-root user with an explicit UID and adds permission to access the /app folder
 # For more info, please refer to https://aka.ms/vscode-docker-python-configure-containers
 RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
@@ -48,5 +48,5 @@ USER appuser
 # COPY alembic_env.py dest
 # During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
 # ENTRYPOINT [ ]
-CMD ./alembic_setup.sh && python ./hotel_api/main.py
+CMD ./alembic_setup.sh && ./celery/init_worker.sh && python ./hotel_api/main.py
 

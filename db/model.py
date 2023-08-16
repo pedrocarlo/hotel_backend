@@ -1,3 +1,4 @@
+import os
 from sqlalchemy import (
     ForeignKey,
     Column,
@@ -24,6 +25,7 @@ class Nfe(Base):
     # TODO no futuro se quiser saber qual tipo de manifestacao foi feita adicionar check aqui para todas as operacoes
     # TODO por enquanto so vai ser utilizado ciencda emissao ou operacao para notas mais antigas
     manifestada = Column("manifestada", Boolean)
+    manifestando = Column("manifestando", Boolean)
     desbravador = Column("desbravador", Boolean)  # foi adicionado no desbravador ou nao
     irrelevant = Column('irrelevate', Boolean)
     
@@ -36,6 +38,7 @@ class Nfe(Base):
         date: datetime.datetime,
         completa: bool = False,
         manifestada: bool = False,
+        manifestando: bool = False,
         desbravador: bool = False,
         irrelevant: bool = False,
     ):
@@ -46,17 +49,27 @@ class Nfe(Base):
         self.date = date
         self.completa = completa
         self.manifestada = manifestada
+        self.manifestando = manifestando
         self.desbravador = desbravador
         self.irrelevant = irrelevant
 
     def __repr__(self):
         return f"{self.chave[:10]} {self.cnpj} {self.nome[:15]} {self.date} \
-              {'resumida' if self.completa else 'completa'} \
+              {'compleat' if self.completa else 'resumida'} \
                 manifestada:{self.manifestada} \
                 desbravador:{self.desbravador}"
                 
+    def get_folder(self):
+        if self.irrelevant: 
+            folder = 'outros'
+        elif self.completa:
+            folder = 'completa'
+        else:
+            folder = "resumida"    
+        return folder        
+    
     def get_path(self):
-        pass
+        return os.path.join(os.getcwd(), 'xml', self.get_folder(), f'{self.chave}.xml')
 
 
 class User(Base):

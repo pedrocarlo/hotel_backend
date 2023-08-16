@@ -45,7 +45,8 @@ services:
       - xml:/app/xml
       # - ./xml:/app/xml
       - alembic:/app/alembic
-      - celery:/app/alembic
+      - celery:/app/celery
+      - ./certificado:/app/certificado
     depends_on:
       - db
       - rabbit
@@ -57,8 +58,8 @@ services:
     hostname: 'rabbitmq'
     image: rabbitmq
     restart: always
-    ports:
-      - "6000:6000"
+    # ports:
+    #   - "6000:6000"
     volumes:
       - mq_data:/var/lib/rabbitmq
 
