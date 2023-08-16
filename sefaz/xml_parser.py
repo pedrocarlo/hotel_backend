@@ -7,9 +7,12 @@ from db.model import Nfe
 ns = {"ns": NAMESPACE_NFE}
 
 
-def get_tags(filepath):
-    with open(filepath, "r", encoding="utf-8") as f:
-        xml = f.read()
+def get_tags(filepath = None, xml_str = None):
+    if xml_str:
+        xml = xml_str
+    elif filepath:
+        with open(filepath, "r", encoding="utf-8") as f:
+            xml = f.read()
 
     resposta = etree.fromstring(xml)
 
@@ -22,9 +25,12 @@ def get_tags(filepath):
     )
     resumida: bool = True if resposta.xpath("//ns:resNFe", namespaces=ns) else False
     completa: bool = True if resposta.xpath("//ns:nfeProc", namespaces=ns) else False
+    irrelevant : bool = False
     manifestada: bool = completa
+    
+    
 
     nota = Nfe(
-        chave, cnpj, nome, total, date, filepath, completa, manifestada=manifestada
+        chave, cnpj, nome, total, date, completa, manifestada=manifestada, irrelevant=irrelevant
     )
     return nota

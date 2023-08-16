@@ -6,6 +6,7 @@ from pynfe.utils.flags import NAMESPACE_NFE
 from lxml import etree
 from utils import Certificado
 from baixarChaves import ler_chaves
+from xml_parser import get_tags
 import traceback
 
 chaves = ler_chaves()
@@ -68,16 +69,16 @@ def distNfe(chave, nsu, is_nsu: bool, is_nsu_especifico: bool):
         if codigo_ret >= CODIGO_SUCESSO:
             print("CODIGO RETORNO")
             print(codigo_ret)
-            download_xml(resposta)
+            xmls = download_xml(resposta)
             if is_nsu:
                 ultNsu = int(resposta.xpath("//ns:ultNSU", namespaces=ns)[0].text)
                 maxNsu = int(resposta.xpath("//ns:maxNSU", namespaces=ns)[0].text)
 
                 print("UltNSU ", ultNsu)
                 print("Max NSU", maxNsu)
-                return ultNsu, maxNsu
+                return ultNsu, maxNsu, xmls
 
-    return 0, 0
+    return 0, 0, []
 
 
 def filter_xml(initial_resposta):
@@ -95,41 +96,47 @@ def filter_xml(initial_resposta):
 
 def download_xml(resposta):
     curr_res = None
+    xmls = []
     try:
         zip_respostas = resposta.xpath(
             "//ns:retDistDFeInt/ns:loteDistDFeInt/ns:docZip", namespaces=ns
         )
         # print(zip_respostas)
-
+        
         for zip_res in zip_respostas:
             des_resposta = DescompactaGzip.descompacta(zip_res.text)
 
             # checar se tem resEvento ou resNfe
             b_chave = des_resposta.xpath("//ns:chNFe", namespaces=ns)[0].text
             curr_res = des_resposta
-            des_resposta, tipo = filter_xml(des_resposta)
+            xml = etree.tostring(des_resposta.getroottree())
+            # nota = get_tags(xml_str=xml)
+            # des_resposta, tipo = filter_xml(des_resposta)
             # print(b_chave)
-            if tipos["evento"] == tipo:
-                des_resposta.getroottree().write(
-                    f"eventos/{b_chave}.xml", pretty_print=True
-                )
-            if tipos["nfe"] == tipo:
-                des_resposta.getroottree().write(
-                    f"distNfe_xml/{b_chave}.xml", pretty_print=True
-                )
-            if tipos["cancelamento"] == tipo:
-                des_resposta.getroottree().write(
-                    f"cancelados/{b_chave}.xml", pretty_print=True
-                )
+            xmls.append(xml)
+            # xmls.append(etree.tostring(des_resposta.getroottree()))
+            # if tipos["evento"] == tipo:
+            #     des_resposta.getroottree().write(
+            #         f"eventos/{b_chave}.xml", pretty_print=True
+            #     )
+            # if tipos["nfe"] == tipo:
+            #     des_resposta.getroottree().write(
+            #         f"distNfe_xml/{b_chave}.xml", pretty_print=True
+            #     )
+            # if tipos["cancelamento"] == tipo:
+            #     des_resposta.getroottree().write(
+            #         f"cancelados/{b_chave}.xml", pretty_print=True
+            #     )
+            
     except Exception as e:
         print("Programa executou mas teve o seguinte erro Handled:")
         print(e)
         print(etree.tostring(curr_res.getroottree(), pretty_print=True))
         traceback.print_exc()
         curr_res.getroottree().write(f"errors/{b_chave}.xml", pretty_print=True)
+    return xmls
 
-
-distNfe(CHAVE, NSU, False, False)
+# distNfe(CHAVE, NSU, False, False)
 
 nsu = 0
 # maxNsu = float("inf")

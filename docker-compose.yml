@@ -5,11 +5,11 @@ services:
     container_name: postgres
     image: postgres
     restart: always
-    build: 
+    build:
       context: .
       dockerfile: ./Dockerfile_db
     environment:
-    # TODO CHANGE PASSWORD LATER or use .env file for password
+      # TODO CHANGE PASSWORD LATER or use .env file for password
       - POSTGRES_PASSWORD=1234
       - POSTGRES_USER=sa
       - POSTGRES_DB=notas
@@ -30,35 +30,44 @@ services:
     volumes:
       - pg_admin:/var/lib/pgadmin
 
-
   backend:
     container_name: backend
     image: backend
     restart: on-failure
-    # environment:
-    # TODO change this afterwards to just read from .env file
-      # - DATABASE_URL=postgresql+psycopg2://sa:1234@db:5432/notas
-    # command: bash -c "alembic upgrade head && 
-    #   uvicorn main:app --host 0.0.0.0 --port 8000 --reload"
+    env_file:
+      - .env
     build:
       context: .
       dockerfile: ./Dockerfile
-    stdin_open: true 
+    stdin_open: true
     tty: true
     volumes:
       - xml:/app/xml
       # - ./xml:/app/xml
       - alembic:/app/alembic
+      - celery:/app/alembic
     depends_on:
       - db
+      - rabbit
     ports:
       - "5000:5000"
-    # command: docker run alembic revision --autogenerate -m "First migration" && \ 
-    #   alembic upgrade head
-  
+
+  rabbit:
+    container_name: rabbit
+    hostname: 'rabbitmq'
+    image: rabbitmq
+    restart: always
+    ports:
+      - "6000:6000"
+    volumes:
+      - mq_data:/var/lib/rabbitmq
+
 volumes:
   xml:
-  db_data:
+  celery:
   alembic:
+  db_data:
   pg_admin:
+  mq_data:
+
 
