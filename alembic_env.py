@@ -37,8 +37,8 @@ target_metadata = None
 # ... etc.
 
 import db.model
-
-target_metadata = db.model.Base.metadata
+from celery.backends.database.session import ResultModelBase
+target_metadata = [db.model.Base.metadata, ResultModelBase.metadata]
 
 
 def run_migrations_offline() -> None:
