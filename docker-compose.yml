@@ -13,8 +13,8 @@ services:
       - POSTGRES_PASSWORD=1234
       - POSTGRES_USER=sa
       - POSTGRES_DB=notas
-    # ports:
-    #   - 5432:5432
+    ports:
+      - 5432:5432
     volumes:
       - db_data:/var/lib/postgresql/data
 
@@ -58,8 +58,8 @@ services:
     hostname: 'rabbitmq'
     image: rabbitmq
     restart: always
-    # ports:
-    #   - "6000:6000"
+    ports:
+      - "5672:5672"
     volumes:
       - mq_data:/var/lib/rabbitmq
 

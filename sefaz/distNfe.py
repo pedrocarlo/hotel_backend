@@ -34,7 +34,6 @@ CANCELAMENTO = 2
 
 def distNfe(chave, nsu, is_nsu: bool, is_nsu_especifico: bool):
     maxNsu = float("inf")
-
     CODIGO_PROCESSADO = 200
     CODIGO_SUCESSO = 137
     # CNPJ = '51548782000139'
@@ -65,6 +64,7 @@ def distNfe(chave, nsu, is_nsu: bool, is_nsu_especifico: bool):
     print(motivo)
     codigo_ret = int(resposta.xpath("//ns:cStat", namespaces=ns)[0].text)
     print(codigo_ret)
+    xmls = []
     if codigo_ret < CODIGO_PROCESSADO:
         if codigo_ret >= CODIGO_SUCESSO:
             print("CODIGO RETORNO")
@@ -77,8 +77,8 @@ def distNfe(chave, nsu, is_nsu: bool, is_nsu_especifico: bool):
                 print("UltNSU ", ultNsu)
                 print("Max NSU", maxNsu)
                 return ultNsu, maxNsu, xmls
-
-    return 0, 0, []
+            
+    return 0, 0, codigo_ret, xmls
 
 
 def filter_xml(initial_resposta):
@@ -110,23 +110,7 @@ def download_xml(resposta):
             b_chave = des_resposta.xpath("//ns:chNFe", namespaces=ns)[0].text
             curr_res = des_resposta
             xml = etree.tostring(des_resposta.getroottree())
-            # nota = get_tags(xml_str=xml)
-            # des_resposta, tipo = filter_xml(des_resposta)
-            # print(b_chave)
             xmls.append(xml)
-            # xmls.append(etree.tostring(des_resposta.getroottree()))
-            # if tipos["evento"] == tipo:
-            #     des_resposta.getroottree().write(
-            #         f"eventos/{b_chave}.xml", pretty_print=True
-            #     )
-            # if tipos["nfe"] == tipo:
-            #     des_resposta.getroottree().write(
-            #         f"distNfe_xml/{b_chave}.xml", pretty_print=True
-            #     )
-            # if tipos["cancelamento"] == tipo:
-            #     des_resposta.getroottree().write(
-            #         f"cancelados/{b_chave}.xml", pretty_print=True
-            #     )
             
     except Exception as e:
         print("Programa executou mas teve o seguinte erro Handled:")
@@ -135,8 +119,8 @@ def download_xml(resposta):
         traceback.print_exc()
         curr_res.getroottree().write(f"errors/{b_chave}.xml", pretty_print=True)
     return xmls
-
-# distNfe(CHAVE, NSU, False, False)
+chave = "35230624614269000126550010003386141336538648"
+# distNfe(CHAVE, NSU, False, False)s
 
 nsu = 0
 # maxNsu = float("inf")
