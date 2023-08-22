@@ -76,7 +76,7 @@ def distNfe(chave, nsu, is_nsu: bool, is_nsu_especifico: bool):
 
                 print("UltNSU ", ultNsu)
                 print("Max NSU", maxNsu)
-                return ultNsu, maxNsu, xmls
+                return ultNsu, maxNsu, codigo_ret, xmls
             
     return 0, 0, codigo_ret, xmls
 

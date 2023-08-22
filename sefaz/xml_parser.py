@@ -15,22 +15,23 @@ def get_tags(filepath = None, xml_str = None):
             xml = f.read()
 
     resposta = etree.fromstring(xml)
-
-    chave: str = resposta.xpath("//ns:chNFe", namespaces=ns)[0].text
-    cnpj: str = resposta.xpath("//ns:CNPJ", namespaces=ns)[0].text
-    nome: str = resposta.xpath("//ns:xNome", namespaces=ns)[0].text.upper()
-    total = float(resposta.xpath("//ns:vNF", namespaces=ns)[0].text)
-    date: datetime = datetime.fromisoformat(
-        resposta.xpath("//ns:dhEmi", namespaces=ns)[0].text
-    )
     resumida: bool = True if resposta.xpath("//ns:resNFe", namespaces=ns) else False
     completa: bool = True if resposta.xpath("//ns:nfeProc", namespaces=ns) else False
-    irrelevant : bool = False
-    manifestada: bool = completa
     
+    if completa or resumida:
+        chave: str = resposta.xpath("//ns:chNFe", namespaces=ns)[0].text
+        cnpj: str = resposta.xpath("//ns:CNPJ", namespaces=ns)[0].text
+        nome: str = resposta.xpath("//ns:xNome", namespaces=ns)[0].text.upper()
+        total = float(resposta.xpath("//ns:vNF", namespaces=ns)[0].text)
+        date: datetime = datetime.fromisoformat(
+            resposta.xpath("//ns:dhEmi", namespaces=ns)[0].text
+        )
+        irrelevant : bool = False
+        manifestada: bool = completa
     
-
-    nota = Nfe(
-        chave, cnpj, nome, total, date, completa, manifestada=manifestada, irrelevant=irrelevant
-    )
-    return nota
+        nota = Nfe(
+            chave, cnpj, nome, total, date, completa, manifestada=manifestada, irrelevant=irrelevant
+        )
+        return nota
+    else:
+        return None
