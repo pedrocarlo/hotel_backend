@@ -1,13 +1,16 @@
 from sqlalchemy import create_engine, select
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import sessionmaker, Session
 import os
 from os import path
 import locale
 from db.model import User, Nfe
+import db.schemas as schemas
 from sefaz.xml_parser import get_tags
+from typing import Optional, Annotated
 
-locale.setlocale(locale.LC_TIME, "pt_BR.UTF-8")
-locale.setlocale(locale.LC_MONETARY, "pt_BR.UTF-8")
+
+locale.setlocale(locale.LC_TIME, "pt_BR.utf8")
+locale.setlocale(locale.LC_MONETARY, "pt_BR.utf8")
 
 
 cwd = os.getcwd()
@@ -22,27 +25,64 @@ engine = "postgresql://{}:{}@{}:{}/{}".format(
     db_user, db_pass, db_host, db_port, db_name
 )
 
-engine = create_engine(engine, echo=True)
-print(engine)
 
-Session = sessionmaker(bind=engine)
+engine = create_engine(engine, echo=True)
+curr_session = sessionmaker(bind=engine)
+
 
 def get_session():
-    return Session()
-
-def get_xml_chave(chave: str):
-    with Session() as session:
-        session.scalars(select(Nfe).where(Nfe.chave == chave)).one()
-        pass
+    return curr_session()
 
 
-def insert_xml_from_folder(folder) -> Nfe:
-    session = Session()
+def get_xml_general(session: Session):
+    return session.query(Nfe).filter(Nfe.manifestando == True).all()
+
+
+def get_xml_by_chave(session: Session, chave: str):
+    return session.query(Nfe).filter(Nfe.chave == chave).first()
+
+
+def get_xml_by_month(session: Session, month: int):
+    return session.query(Nfe).filter(Nfe.date.month == month).all()
+
+
+def get_xml_manifestando(session: Session):
+    return session.query(Nfe).filter(Nfe.manifestando == True).all()
+
+
+def get_xml_manifestada(session: Session):
+    return session.query(Nfe).filter(Nfe.manifestada == True).all()
+
+
+def get_general(session: Session, params: schemas.NfeQueryParams):
+    query = session.query(Nfe)
+    if params.cnpj:
+        query = query.filter(Nfe.cnpj == params.cnpj)
+    if params.nome:
+        query = query.filter(Nfe.nome.contains(params.nome))
+    if params.total:
+        query = query.filter(Nfe.total == params.total)
+    if params.completa:
+        query = query.filter(Nfe.completa == params.completa)
+    if params.manifestada:
+        query = query.filter(Nfe.manifestada == params.manifestada)
+    if params.manifestando:
+        query = query.filter(Nfe.manifestando == params.manifestando)
+    if params.desbravador:
+        query = query.filter(Nfe.desbravador == params.desbravador)
+    if params.start_date and params.end_date:
+        query = query.filter(Nfe.date.between(params.start_date, params.end_date))
+    # TODO see if this limit will need to change
+    return query.limit(500).all()
+
+
+def insert_xml_from_folder(folder):
+    session = get_session()
     try:
         files = os.listdir(folder)
         for filename in files:
             nota = get_tags(path.join(folder, filename))
-            session.add(nota)
+            session.merge(nota)
         # fail whole operation if cannot add everything together
         # TODO see if i want to change this behavior
         session.commit()

@@ -27,8 +27,8 @@ class Nfe(Base):
     manifestada = Column("manifestada", Boolean)
     manifestando = Column("manifestando", Boolean)
     desbravador = Column("desbravador", Boolean)  # foi adicionado no desbravador ou nao
-    irrelevant = Column('irrelevate', Boolean)
-    
+    irrelevant = Column("irrelevate", Boolean)
+
     def __init__(
         self,
         chave: str,
@@ -58,18 +58,18 @@ class Nfe(Base):
               {'compleat' if self.completa else 'resumida'} \
                 manifestada:{self.manifestada} \
                 desbravador:{self.desbravador}"
-                
+
     def get_folder(self):
-        if self.irrelevant: 
-            folder = 'outros'
+        if self.irrelevant:
+            folder = "outros"
         elif self.completa:
-            folder = 'completa'
+            folder = "completa"
         else:
-            folder = "resumida"    
-        return folder        
-    
+            folder = "resumida"
+        return folder
+
     def get_path(self):
-        return os.path.join(os.getcwd(), 'xml', self.get_folder(), f'{self.chave}.xml')
+        return os.path.join(os.getcwd(), "xml", self.get_folder(), f"{self.chave}.xml")
 
 
 class User(Base):
@@ -77,8 +77,9 @@ class User(Base):
     id = Column("id", Integer, primary_key=True)
     nome = Column("nome", String)
     # TODO lembrar de hash a senha dos users
-    senha = Column("senha", String)
+    password = Column("senha", String)
+    ativo = Column("ativo", Boolean)
 
-    def __init__(self, nome: str, senha: str):
+    def __init__(self, nome: str, password: str):
         self.nome = nome
-        self.senha = senha
+        self.password = password
