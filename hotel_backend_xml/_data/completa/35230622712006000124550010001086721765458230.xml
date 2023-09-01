@@ -1,0 +1,602 @@
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+    <infNFe versao="4.00" Id="NFe35230622712006000124550010001086721765458230">
+      <ide>
+        <cUF>35</cUF>
+        <cNF>76545823</cNF>
+        <natOp>VENDAS DE MERCADORIAS RECEBIDAS DE TERCEIROS</natOp>
+        <mod>55</mod>
+        <serie>1</serie>
+        <nNF>108672</nNF>
+        <dhEmi>2023-06-20T11:22:46-03:00</dhEmi>
+        <dhSaiEnt>2023-06-20T11:22:46-03:00</dhSaiEnt>
+        <tpNF>1</tpNF>
+        <idDest>1</idDest>
+        <cMunFG>3506003</cMunFG>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>0</cDV>
+        <tpAmb>1</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>9</indPres>
+        <indIntermed>0</indIntermed>
+        <procEmi>0</procEmi>
+        <verProc>3.1.0</verProc>
+      </ide>
+      <emit>
+        <CNPJ>22712006000124</CNPJ>
+        <xNome>EPIS ONLINE COMERCIO LTDA - EPP</xNome>
+        <enderEmit>
+          <xLgr>AVENIDA DUQUE DE CAXIAS</xLgr>
+          <nro>2948</nro>
+          <xBairro>PARQUE PAULISTANO</xBairro>
+          <cMun>3506003</cMun>
+          <xMun>BAURU</xMun>
+          <UF>SP</UF>
+          <CEP>17030520</CEP>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+          <fone>1430108173</fone>
+        </enderEmit>
+        <IE>209588740119</IE>
+        <CRT>3</CRT>
+      </emit>
+      <dest>
+        <CNPJ>51548782000139</CNPJ>
+        <xNome>LIBLANCO</xNome>
+        <enderDest>
+          <xLgr>RUA FREI CANECA</xLgr>
+          <nro>1006</nro>
+          <xCpl>HOTEL SAN GABRIEL</xCpl>
+          <xBairro>CONSOLACAO</xBairro>
+          <cMun>3550308</cMun>
+          <xMun>SAO PAULO</xMun>
+          <UF>SP</UF>
+          <CEP>01307002</CEP>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+        </enderDest>
+        <indIEDest>9</indIEDest>
+      </dest>
+      <entrega>
+        <CNPJ>51548782000139</CNPJ>
+        <xLgr>RUA FREI CANECA</xLgr>
+        <nro>1006</nro>
+        <xCpl>HOTEL SAN GABRIEL</xCpl>
+        <xBairro>CONSOLACAO</xBairro>
+        <cMun>3550308</cMun>
+        <xMun>SAO PAULO</xMun>
+        <UF>SP</UF>
+        <CEP>01307002</CEP>
+        <cPais>1058</cPais>
+        <xPais>BRASIL</xPais>
+        <email>CAROLINE@SANGABRIEL.COM.BR</email>
+      </entrega>
+      <det nItem="1">
+        <prod>
+          <cProd>447</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>SAPATO MED SOFT WORKS BB65 BRANCO - 35</xProd>
+          <NCM>64019990</NCM>
+          <CFOP>5102</CFOP>
+          <uCom>PR</uCom>
+          <qCom>1.0000</qCom>
+          <vUnCom>82.0000000000</vUnCom>
+          <vProd>82.00</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>PR</uTrib>
+          <qTrib>1.0000</qTrib>
+          <vUnTrib>82.0000000000</vUnTrib>
+          <vDesc>2.46</vDesc>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>79.54</vBC>
+              <pICMS>18.00</pICMS>
+              <vICMS>14.32</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>79.54</vBC>
+              <pPIS>0.65</pPIS>
+              <vPIS>0.52</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>79.54</vBC>
+              <pCOFINS>3.00</pCOFINS>
+              <vCOFINS>2.39</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="2">
+        <prod>
+          <cProd>448</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>SAPATO MED SOFT WORKS BB65 BRANCO - 36</xProd>
+          <NCM>64019990</NCM>
+          <CFOP>5102</CFOP>
+          <uCom>PR</uCom>
+          <qCom>5.0000</qCom>
+          <vUnCom>82.0000000000</vUnCom>
+          <vProd>410.00</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>PR</uTrib>
+          <qTrib>5.0000</qTrib>
+          <vUnTrib>82.0000000000</vUnTrib>
+          <vDesc>12.30</vDesc>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>397.70</vBC>
+              <pICMS>18.00</pICMS>
+              <vICMS>71.59</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>397.70</vBC>
+              <pPIS>0.65</pPIS>
+              <vPIS>2.59</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>397.70</vBC>
+              <pCOFINS>3.00</pCOFINS>
+              <vCOFINS>11.93</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="3">
+        <prod>
+          <cProd>449</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>SAPATO MED SOFT WORKS BB65 BRANCO - 37</xProd>
+          <NCM>64019990</NCM>
+          <CFOP>5102</CFOP>
+          <uCom>PR</uCom>
+          <qCom>1.0000</qCom>
+          <vUnCom>82.0000000000</vUnCom>
+          <vProd>82.00</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>PR</uTrib>
+          <qTrib>1.0000</qTrib>
+          <vUnTrib>82.0000000000</vUnTrib>
+          <vDesc>2.46</vDesc>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>79.54</vBC>
+              <pICMS>18.00</pICMS>
+              <vICMS>14.32</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>79.54</vBC>
+              <pPIS>0.65</pPIS>
+              <vPIS>0.52</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>79.54</vBC>
+              <pCOFINS>3.00</pCOFINS>
+              <vCOFINS>2.39</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="4">
+        <prod>
+          <cProd>454</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>SAPATO MED SOFT WORKS BB65 BRANCO - 42</xProd>
+          <NCM>64019990</NCM>
+          <CFOP>5102</CFOP>
+          <uCom>PR</uCom>
+          <qCom>1.0000</qCom>
+          <vUnCom>82.0000000000</vUnCom>
+          <vProd>82.00</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>PR</uTrib>
+          <qTrib>1.0000</qTrib>
+          <vUnTrib>82.0000000000</vUnTrib>
+          <vDesc>2.46</vDesc>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>79.54</vBC>
+              <pICMS>18.00</pICMS>
+              <vICMS>14.32</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>79.54</vBC>
+              <pPIS>0.65</pPIS>
+              <vPIS>0.52</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>79.54</vBC>
+              <pCOFINS>3.00</pCOFINS>
+              <vCOFINS>2.39</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="5">
+        <prod>
+          <cProd>474</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>SAPATO MED SOFT WORKS BB65 PRETO - 34</xProd>
+          <NCM>64019990</NCM>
+          <CFOP>5102</CFOP>
+          <uCom>PR</uCom>
+          <qCom>1.0000</qCom>
+          <vUnCom>82.0000000000</vUnCom>
+          <vProd>82.00</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>PR</uTrib>
+          <qTrib>1.0000</qTrib>
+          <vUnTrib>82.0000000000</vUnTrib>
+          <vDesc>2.46</vDesc>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>79.54</vBC>
+              <pICMS>18.00</pICMS>
+              <vICMS>14.32</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>79.54</vBC>
+              <pPIS>0.65</pPIS>
+              <vPIS>0.52</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>79.54</vBC>
+              <pCOFINS>3.00</pCOFINS>
+              <vCOFINS>2.39</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="6">
+        <prod>
+          <cProd>475</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>SAPATO MED SOFT WORKS BB65 PRETO - 35</xProd>
+          <NCM>64019990</NCM>
+          <CFOP>5102</CFOP>
+          <uCom>PR</uCom>
+          <qCom>1.0000</qCom>
+          <vUnCom>82.0000000000</vUnCom>
+          <vProd>82.00</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>PR</uTrib>
+          <qTrib>1.0000</qTrib>
+          <vUnTrib>82.0000000000</vUnTrib>
+          <vDesc>2.46</vDesc>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>79.54</vBC>
+              <pICMS>18.00</pICMS>
+              <vICMS>14.32</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>79.54</vBC>
+              <pPIS>0.65</pPIS>
+              <vPIS>0.52</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>79.54</vBC>
+              <pCOFINS>3.00</pCOFINS>
+              <vCOFINS>2.39</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="7">
+        <prod>
+          <cProd>477</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>SAPATO MED SOFT WORKS BB65 PRETO - 37</xProd>
+          <NCM>64019990</NCM>
+          <CFOP>5102</CFOP>
+          <uCom>PR</uCom>
+          <qCom>1.0000</qCom>
+          <vUnCom>82.0000000000</vUnCom>
+          <vProd>82.00</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>PR</uTrib>
+          <qTrib>1.0000</qTrib>
+          <vUnTrib>82.0000000000</vUnTrib>
+          <vDesc>2.46</vDesc>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>79.54</vBC>
+              <pICMS>18.00</pICMS>
+              <vICMS>14.32</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>79.54</vBC>
+              <pPIS>0.65</pPIS>
+              <vPIS>0.52</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>79.54</vBC>
+              <pCOFINS>3.00</pCOFINS>
+              <vCOFINS>2.39</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="8">
+        <prod>
+          <cProd>478</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>SAPATO MED SOFT WORKS BB65 PRETO - 38</xProd>
+          <NCM>64019990</NCM>
+          <CFOP>5102</CFOP>
+          <uCom>PR</uCom>
+          <qCom>1.0000</qCom>
+          <vUnCom>82.0000000000</vUnCom>
+          <vProd>82.00</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>PR</uTrib>
+          <qTrib>1.0000</qTrib>
+          <vUnTrib>82.0000000000</vUnTrib>
+          <vDesc>2.46</vDesc>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>79.54</vBC>
+              <pICMS>18.00</pICMS>
+              <vICMS>14.32</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>79.54</vBC>
+              <pPIS>0.65</pPIS>
+              <vPIS>0.52</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>79.54</vBC>
+              <pCOFINS>3.00</pCOFINS>
+              <vCOFINS>2.39</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="9">
+        <prod>
+          <cProd>479</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>SAPATO MED SOFT WORKS BB65 PRETO - 39</xProd>
+          <NCM>64019990</NCM>
+          <CFOP>5102</CFOP>
+          <uCom>PR</uCom>
+          <qCom>1.0000</qCom>
+          <vUnCom>82.0000000000</vUnCom>
+          <vProd>82.00</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>PR</uTrib>
+          <qTrib>1.0000</qTrib>
+          <vUnTrib>82.0000000000</vUnTrib>
+          <vDesc>2.46</vDesc>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>79.54</vBC>
+              <pICMS>18.00</pICMS>
+              <vICMS>14.32</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>79.54</vBC>
+              <pPIS>0.65</pPIS>
+              <vPIS>0.52</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>79.54</vBC>
+              <pCOFINS>3.00</pCOFINS>
+              <vCOFINS>2.39</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>1034.02</vBC>
+          <vICMS>186.15</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vFCPUFDest>0.00</vFCPUFDest>
+          <vICMSUFDest>0.00</vICMSUFDest>
+          <vICMSUFRemet>0.00</vICMSUFRemet>
+          <vFCP>0.00</vFCP>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vFCPST>0.00</vFCPST>
+          <vFCPSTRet>0.00</vFCPSTRet>
+          <vProd>1066.00</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>31.98</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vIPIDevol>0.00</vIPIDevol>
+          <vPIS>6.75</vPIS>
+          <vCOFINS>31.05</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>1034.02</vNF>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>0</modFrete>
+        <transporta>
+          <CNPJ>30855243000172</CNPJ>
+          <xNome>SPO SAO PAULO TRANSPORTE EIRELI</xNome>
+          <IE>119657691119</IE>
+          <xEnder>RUA LUIZ MATHEUS ALPIOVEZZA, 40</xEnder>
+          <xMun>SAO PAULO</xMun>
+          <UF>SP</UF>
+        </transporta>
+        <veicTransp>
+          <placa>XXX1111</placa>
+          <UF>SP</UF>
+        </veicTransp>
+        <vol>
+          <qVol>2</qVol>
+          <esp>VOL</esp>
+          <pesoL>0.000</pesoL>
+          <pesoB>9.400</pesoB>
+        </vol>
+      </transp>
+      <cobr>
+        <fat>
+          <nFat>108672</nFat>
+          <vOrig>1034.02</vOrig>
+          <vDesc>0.00</vDesc>
+          <vLiq>1034.02</vLiq>
+        </fat>
+        <dup>
+          <nDup>001</nDup>
+          <dVenc>2023-06-20</dVenc>
+          <vDup>1034.02</vDup>
+        </dup>
+      </cobr>
+      <pag>
+        <detPag>
+          <tPag>15</tPag>
+          <vPag>1034.02</vPag>
+        </detPag>
+      </pag>
+      <infAdic>
+        <infCpl>TRIB APROX R$: 139,09 FED E 186,15 EST FONTE: IBPT M2L5P8 PEDIDO: 0000096673     CONDICAO: BOLETO LOJA VIRTUAL BRADESCO  BOLETO LOJA VIRTUAL     PONTO DE REF.: HOTEL SAN GABRIEL     REPRESENTANTE: DIOGO RIBEIRO NEGRAO  FANTASIA: LIBLANCO EMPREENDIMENTOS IMOBILIARIOS LTDA                    ENTREGA: RUA FREI CANECA, 1006, HOTEL SAN GABRIEL BAIRRO: CONSOLACAO CEP: 01307002 CIDADE: SAO PAULO, SP</infCpl>
+      </infAdic>
+    </infNFe>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <Reference URI="#NFe35230622712006000124550010001086721765458230">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+          <DigestValue>A41r/ELM6SHhcJMHEDMLYnYuRg4=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>f3VcRsezE2oItxbKdBiZfBdFnzVPQCvh9OyX7xeE52gY3p3xl+RmLSyQfKKfAmF0pyZfw43MLAF1cqjh4W1VSAVt1l3dEmGS0W95BK0pRaUBTsyMGolDksc5DU54xfyBiy+VL7oh0KZPB4bmbjWNEuJPsFlVBKPzEZ9+pz7Q5acp29B2b/c+Oc5fXn9JCHhXrvm7V3rPW9NaxhiL8BZ0IrwlDVAHuipWzAdLA/ys4GOu6aGYyoue5HdwNHB9gppCK+602BOfs2qVNqhFhQf+lcCBBadgOLHgSC1Qi2Q9bEbDKlWmk/QRBvbMxBpjCk1baXoX/j1qEuXZ6vtctUZQKA==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>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</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe versao="4.00">
+    <infProt Id="Id135230965672589">
+      <tpAmb>1</tpAmb>
+      <verAplic>SP_NFE_PL009_V4</verAplic>
+      <chNFe>35230622712006000124550010001086721765458230</chNFe>
+      <dhRecbto>2023-06-20T11:23:14-03:00</dhRecbto>
+      <nProt>135230965672589</nProt>
+      <digVal>A41r/ELM6SHhcJMHEDMLYnYuRg4=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+  </protNFe>
+</nfeProc>

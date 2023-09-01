@@ -32,7 +32,7 @@ EVENTO = 1
 CANCELAMENTO = 2
 
 
-def distNfe(chave, nsu, is_nsu: bool, is_nsu_especifico: bool):
+def distNfe(chave, nsu, is_nsu: bool = True, is_nsu_especifico: bool = False):
     maxNsu = float("inf")
     CODIGO_PROCESSADO = 200
     CODIGO_SUCESSO = 137
@@ -77,7 +77,7 @@ def distNfe(chave, nsu, is_nsu: bool, is_nsu_especifico: bool):
                 print("UltNSU ", ultNsu)
                 print("Max NSU", maxNsu)
                 return ultNsu, maxNsu, codigo_ret, xmls
-            
+
     return 0, 0, codigo_ret, xmls
 
 
@@ -102,7 +102,7 @@ def download_xml(resposta):
             "//ns:retDistDFeInt/ns:loteDistDFeInt/ns:docZip", namespaces=ns
         )
         # print(zip_respostas)
-        
+
         for zip_res in zip_respostas:
             des_resposta = DescompactaGzip.descompacta(zip_res.text)
 
@@ -111,7 +111,7 @@ def download_xml(resposta):
             curr_res = des_resposta
             xml = etree.tostring(des_resposta.getroottree())
             xmls.append(xml)
-            
+
     except Exception as e:
         print("Programa executou mas teve o seguinte erro Handled:")
         print(e)
@@ -119,6 +119,8 @@ def download_xml(resposta):
         traceback.print_exc()
         curr_res.getroottree().write(f"errors/{b_chave}.xml", pretty_print=True)
     return xmls
+
+
 chave = "35230624614269000126550010003386141336538648"
 # distNfe(CHAVE, NSU, False, False)s
 

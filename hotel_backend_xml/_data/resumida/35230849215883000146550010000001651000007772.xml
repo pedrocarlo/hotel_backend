@@ -1,0 +1,13 @@
+<resNFe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.01">
+  <chNFe>35230849215883000146550010000001651000007772</chNFe>
+  <CNPJ>49215883000146</CNPJ>
+  <xNome>KMM COMERCIO DE DOCES LTDA</xNome>
+  <IE>127822378115</IE>
+  <dhEmi>2023-08-22T15:29:00-03:00</dhEmi>
+  <tpNF>1</tpNF>
+  <vNF>453.90</vNF>
+  <digVal>YKSSVNPQ4Eidw3JcvgLB0el0sBk=</digVal>
+  <dhRecbto>2023-08-22T15:29:43-03:00</dhRecbto>
+  <nProt>135231381956029</nProt>
+  <cSitNFe>1</cSitNFe>
+</resNFe>

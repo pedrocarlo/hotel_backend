@@ -1,0 +1,13 @@
+<resNFe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.01">
+  <chNFe>35230613324184003021550010035452071549846677</chNFe>
+  <CNPJ>13324184003021</CNPJ>
+  <xNome>VIGOR ALIMENTOS S.A.</xNome>
+  <IE>298219132117</IE>
+  <dhEmi>2023-06-28T00:00:00-03:00</dhEmi>
+  <tpNF>1</tpNF>
+  <vNF>1013.84</vNF>
+  <digVal>U3kSTE0pdxCKyE6SM9Bvj5jdVuo=</digVal>
+  <dhRecbto>2023-06-28T05:19:42-03:00</dhRecbto>
+  <nProt>135231013493574</nProt>
+  <cSitNFe>1</cSitNFe>
+</resNFe>

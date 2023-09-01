@@ -1,0 +1,383 @@
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+    <infNFe Id="NFe35230832165635000135550020000893921000975452" versao="4.00">
+      <ide>
+        <cUF>35</cUF>
+        <cNF>00097545</cNF>
+        <natOp>REVENDA MERCADORIA</natOp>
+        <mod>55</mod>
+        <serie>2</serie>
+        <nNF>89392</nNF>
+        <dhEmi>2023-08-01T13:48:13-02:00</dhEmi>
+        <tpNF>1</tpNF>
+        <idDest>1</idDest>
+        <cMunFG>3550308</cMunFG>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>2</cDV>
+        <tpAmb>1</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>0</indPres>
+        <procEmi>0</procEmi>
+        <verProc>NF-eletronica.com</verProc>
+      </ide>
+      <emit>
+        <CNPJ>32165635000135</CNPJ>
+        <xNome>CG FOOD'S DISTRIBUIDORA DE ALIMENTOS LTDA</xNome>
+        <xFant>CG FOOD&#180;S</xFant>
+        <enderEmit>
+          <xLgr>RUA TREZE DE MAIO</xLgr>
+          <nro>205</nro>
+          <xBairro>BELA VISTA</xBairro>
+          <cMun>3550308</cMun>
+          <xMun>SAO PAULO</xMun>
+          <UF>SP</UF>
+          <CEP>01327000</CEP>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+          <fone>1132365600</fone>
+        </enderEmit>
+        <IE>123313015112</IE>
+        <CRT>3</CRT>
+      </emit>
+      <dest>
+        <CNPJ>51548782000139</CNPJ>
+        <xNome>LIBLANCO EMPREENDIMENTOS IMOBILIARIOS S/C LTDA</xNome>
+        <enderDest>
+          <xLgr>R: FREI CANECA</xLgr>
+          <nro>1006</nro>
+          <xCpl>APTO 21</xCpl>
+          <xBairro>CONSOLACAO</xBairro>
+          <cMun>3550308</cMun>
+          <xMun>SAO PAULO</xMun>
+          <UF>SP</UF>
+          <CEP>01307002</CEP>
+          <cPais>1058</cPais>
+          <fone>113532279</fone>
+        </enderDest>
+        <indIEDest>9</indIEDest>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <cProd>00060559</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>FARINHA DE MILHO FLOCAO 500GR</xProd>
+          <NCM>11041900</NCM>
+          <CFOP>5102</CFOP>
+          <uCom>UN</uCom>
+          <qCom>20.0000</qCom>
+          <vUnCom>2.50000000</vUnCom>
+          <vProd>50.00</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>20.0000</qTrib>
+          <vUnTrib>2.50000000</vUnTrib>
+          <indTot>1</indTot>
+          <rastro>
+            <nLote>LT:1</nLote>
+            <qLote>20.000</qLote>
+            <dFab>2023-06-02</dFab>
+            <dVal>2024-07-26</dVal>
+          </rastro>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS20>
+              <orig>0</orig>
+              <CST>20</CST>
+              <modBC>3</modBC>
+              <pRedBC>33.33</pRedBC>
+              <vBC>33.34</vBC>
+              <pICMS>18.00</pICMS>
+              <vICMS>6.00</vICMS>
+            </ICMS20>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISNT>
+              <CST>06</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>06</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="2">
+        <prod>
+          <cProd>00000101</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>IOG CENOURA  LARANJA 28X170G</xProd>
+          <NCM>04032000</NCM>
+          <CEST>1702100</CEST>
+          <CFOP>5102</CFOP>
+          <uCom>CX</uCom>
+          <qCom>1.0000</qCom>
+          <vUnCom>75.40000000</vUnCom>
+          <vProd>75.40</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>CX</uTrib>
+          <qTrib>1.0000</qTrib>
+          <vUnTrib>75.40000000</vUnTrib>
+          <indTot>1</indTot>
+          <rastro>
+            <nLote>LT:LUCAO</nLote>
+            <qLote>1.000</qLote>
+            <dFab>2023-06-02</dFab>
+            <dVal>2024-07-26</dVal>
+          </rastro>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>75.40</vBC>
+              <pICMS>18.00</pICMS>
+              <vICMS>13.57</vICMS>
+            </ICMS00>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>61.83</vBC>
+              <pPIS>1.65</pPIS>
+              <vPIS>1.02</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>61.83</vBC>
+              <pCOFINS>7.60</pCOFINS>
+              <vCOFINS>4.70</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="3">
+        <prod>
+          <cProd>00007742</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>MOLHO DE TOMATE QUERO 300G</xProd>
+          <NCM>20029000</NCM>
+          <CFOP>5102</CFOP>
+          <uCom>UN</uCom>
+          <qCom>72.0000</qCom>
+          <vUnCom>1.70000000</vUnCom>
+          <vProd>122.40</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>72.0000</qTrib>
+          <vUnTrib>1.70000000</vUnTrib>
+          <indTot>1</indTot>
+          <rastro>
+            <nLote>LT:/</nLote>
+            <qLote>72.000</qLote>
+            <dFab>2023-06-02</dFab>
+            <dVal>2024-07-26</dVal>
+          </rastro>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS20>
+              <orig>0</orig>
+              <CST>20</CST>
+              <modBC>3</modBC>
+              <pRedBC>33.33</pRedBC>
+              <vBC>81.60</vBC>
+              <pICMS>18.00</pICMS>
+              <vICMS>14.69</vICMS>
+            </ICMS20>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>107.71</vBC>
+              <pPIS>1.65</pPIS>
+              <vPIS>1.78</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>107.71</vBC>
+              <pCOFINS>7.60</pCOFINS>
+              <vCOFINS>8.19</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="4">
+        <prod>
+          <cProd>00203443</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>SALSICHA SADIA</xProd>
+          <NCM>16010000</NCM>
+          <CEST>1707700</CEST>
+          <CFOP>5405</CFOP>
+          <uCom>KG</uCom>
+          <qCom>6.0000</qCom>
+          <vUnCom>12.73600000</vUnCom>
+          <vProd>76.42</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>KG</uTrib>
+          <qTrib>6.0000</qTrib>
+          <vUnTrib>12.73666667</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+              <vBCSTRet>0.00</vBCSTRet>
+              <pST>0.00</pST>
+              <vICMSSubstituto>0.00</vICMSSubstituto>
+              <vICMSSTRet>0.00</vICMSSTRet>
+            </ICMS60>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>76.42</vBC>
+              <pPIS>1.65</pPIS>
+              <vPIS>1.26</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>76.42</vBC>
+              <pCOFINS>7.60</pCOFINS>
+              <vCOFINS>5.81</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>190.34</vBC>
+          <vICMS>34.26</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vFCPUFDest>0.00</vFCPUFDest>
+          <vICMSUFDest>0.00</vICMSUFDest>
+          <vICMSUFRemet>0.00</vICMSUFRemet>
+          <vFCP>0.00</vFCP>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vFCPST>0.00</vFCPST>
+          <vFCPSTRet>0.00</vFCPSTRet>
+          <vProd>324.22</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vIPIDevol>0.00</vIPIDevol>
+          <vPIS>4.06</vPIS>
+          <vCOFINS>18.70</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>324.22</vNF>
+          <vTotTrib>0.00</vTotTrib>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>0</modFrete>
+        <transporta>
+          <xMun>-</xMun>
+        </transporta>
+        <vol>
+          <qVol>99</qVol>
+          <esp>GRANEL</esp>
+          <marca>DIVERSAS</marca>
+          <nVol>1/1</nVol>
+          <pesoL>6.000</pesoL>
+          <pesoB>6.000</pesoB>
+        </vol>
+      </transp>
+      <cobr>
+        <fat>
+          <nFat>00089392</nFat>
+          <vOrig>324.22</vOrig>
+          <vDesc>0.00</vDesc>
+          <vLiq>324.22</vLiq>
+        </fat>
+        <dup>
+          <nDup>001</nDup>
+          <dVenc>2023-08-11</dVenc>
+          <vDup>324.22</vDup>
+        </dup>
+      </cobr>
+      <pag>
+        <detPag>
+          <indPag>1</indPag>
+          <tPag>15</tPag>
+          <vPag>324.22</vPag>
+        </detPag>
+      </pag>
+      <infAdic>
+        <infCpl>- NS Ped.: 00087564;- Prazo Pagto: 010; - Comprador: MARIA; - Fantasia: LIBLANCO;Favor conferir toda a mercadoria no ato da entrega, n&#227;o aceitamos reclama&#231;&#245;es futuras.;ENDERE&#199;O DE ENTREGA: ;R: FREI CANECA, 1006 - APTO 21;SAO PAULO - CONSOLACAO - SP;CEP: 01307-002;</infCpl>
+      </infAdic>
+    </infNFe>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <Reference URI="#NFe35230832165635000135550020000893921000975452">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+          <DigestValue>WmlEYFJZ6sgugrn0P1jwlYaj99g=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>e4RC0daziL8QdxM8gbDZSWi1W8TP3VsNWTNH1U30OrCXJx1Sv/wUSF/NtQjKiVoDL6MMb92Ws9wMcO7wpvWX5FD6S2Rrkh1hctXU2k3c9eyTN4fdCOOY3HeMu7bJ0d5xS5pNqGHV5pjIDLSYMWvbzQT30r3QeVkCrTjFPvH6+74c5mcrKq5hfJcEVJKDUC9m7e5ulkzrxUP+F/LmYAwlF2WnYVvCPQK/URARoqe6ONUAeGkIUNgA5NyXufR4qK5iFSIgomVRQHKZ+dZm0Ul//USUyHC74afBw/Z6K/TgwvkjR3+Uua5dfe5IselHYZnouNI6XZWYWejFeAoAdi82/Q==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>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</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe versao="4.00">
+    <infProt Id="Id135231239642170">
+      <tpAmb>1</tpAmb>
+      <verAplic>SP_NFE_PL009_V4</verAplic>
+      <chNFe>35230832165635000135550020000893921000975452</chNFe>
+      <dhRecbto>2023-08-01T13:48:14-03:00</dhRecbto>
+      <nProt>135231239642170</nProt>
+      <digVal>WmlEYFJZ6sgugrn0P1jwlYaj99g=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+  </protNFe>
+</nfeProc>

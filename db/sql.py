@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, select
+from sqlalchemy import create_engine, extract, select
 from sqlalchemy.orm import sessionmaker, Session
 import os
 from os import path
@@ -34,23 +34,29 @@ def get_session():
     return curr_session()
 
 
-def get_xml_general(session: Session):
-    return session.query(Nfe).filter(Nfe.manifestando == True).all()
-
-
-def get_xml_by_chave(session: Session, chave: str):
+def get_by_chave(session: Session, chave: str):
     return session.query(Nfe).filter(Nfe.chave == chave).first()
 
 
-def get_xml_by_month(session: Session, month: int):
-    return session.query(Nfe).filter(Nfe.date.month == month).all()
+def get_by_date(session: Session, year: int, month: int):
+    return (
+        session.query(Nfe)
+        .filter(extract("year", Nfe.date) == year, extract("month", Nfe.date) == month)
+        .all()
+    )
 
 
-def get_xml_manifestando(session: Session):
-    return session.query(Nfe).filter(Nfe.manifestando == True).all()
+def get_manifestando(session: Session):
+    return (
+        session.query(Nfe)
+        .filter(
+            Nfe.manifestando == True, Nfe.manifestada == False, Nfe.completa == False
+        )
+        .all()
+    )
 
 
-def get_xml_manifestada(session: Session):
+def get_manifestada(session: Session):
     return session.query(Nfe).filter(Nfe.manifestada == True).all()
 
 
