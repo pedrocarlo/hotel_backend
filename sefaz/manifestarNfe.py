@@ -21,7 +21,7 @@ CNPJ = "51548782000139"
 # CHAVE = chaves[0]
 
 
-async def manifestNfe(chave: str, CNPJ: str, tipo: int = 1):
+def manifestNfe(chave: str, CNPJ: str, tipo: int = 1):
     ns = {"ns": NAMESPACE_NFE}
     CODIGO_SUCESSO = 128
     ciencia_emissao = 2
