@@ -9,23 +9,21 @@ from pynfe.utils.flags import NAMESPACE_NFE
 from db.sql import get_by_date, get_session
 
 from sefaz.baixarChaves import escrever_chaves, ler_chaves
-from sefaz.utils import Certificado
-
-certificado = Certificado.certificado
-senha = Certificado.senha
-uf = Certificado.uf
-homologacao = Certificado.homologacao
+from sefaz.utils import get_certificados
 
 
-CNPJ = "51548782000139"
+certificados = get_certificados()
+# CNPJ = "51548782000139"
 # CHAVE = chaves[0]
 
 
-def manifestNfe(chave: str, CNPJ: str, tipo: int = 1):
-    ns = {"ns": NAMESPACE_NFE}
-    CODIGO_SUCESSO = 128
-    ciencia_emissao = 2
-    ciencia_operacao = 1
+def manifestNfe(chave: str, tipo: int = 1, Certificado=certificados[0]):
+    certificado = Certificado.certificado
+    senha = Certificado.senha
+    uf = Certificado.uf
+    homologacao = Certificado.homologacao
+    CNPJ = Certificado.cnpj
+
     manif_dest = EventoManifestacaoDest(
         cnpj=CNPJ,  # cnpj do destinatário
         chave=chave,  # chave de acesso da nota

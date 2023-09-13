@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker, Session
 import os
 from os import path
 import locale
-from db.model import User, Nfe
+from db.model import User, Nfe, Certificado
 import db.schemas as schemas
 from sefaz.xml_parser import get_tags
 from typing import Optional, Annotated
@@ -82,12 +82,45 @@ def get_general(session: Session, params: schemas.NfeQueryParams):
     return query.limit(500).all()
 
 
+def add_certificados(session: Session):
+    from sefaz.utils import get_certificados
+    from sefaz.lerCertificado import get_validade
+
+    certificados = get_certificados()
+    for cert in certificados:
+        cnpj = cert.cnpj
+        nsu = 0
+        caminho = cert.certificado
+        validade = get_validade(cert)
+        try:
+            session.merge(Certificado(cnpj, nsu, caminho, validade))
+            session.commit()
+        finally:
+            session.close()
+
+
+def write_ult_nsu(session: Session, nsu: int, cnpj: str):
+    try:
+        query = session.query(Certificado).filter_by(cnpj=cnpj)
+        query.first().nsu = nsu
+        session.commit()
+    finally:
+        session.close()
+
+
+def read_ult_nsu(session: Session, cnpj: str) -> int:
+    query = session.query(Certificado).filter_by(cnpj=cnpj)
+
+    return query.first().nsu
+
+
 def insert_xml_from_folder(folder):
     session = get_session()
     try:
         files = os.listdir(folder)
         for filename in files:
             nota = get_tags(path.join(folder, filename))
+            nota.cnpj_comprador = "51548782000139"
             session.merge(nota)
         # fail whole operation if cannot add everything together
         # TODO see if i want to change this behavior

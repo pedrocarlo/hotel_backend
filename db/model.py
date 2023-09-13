@@ -7,6 +7,7 @@ from sqlalchemy import (
     Float,
     Boolean,
     DateTime,
+    text,
 )
 from sqlalchemy.orm import declarative_base
 import datetime
@@ -17,7 +18,14 @@ Base = declarative_base()
 class Nfe(Base):
     __tablename__ = "nfe"
     chave = Column("chave", String(44), primary_key=True, autoincrement=False)
-    cnpj = Column("cnpj", String(14))
+    cnpj_comprador = Column(
+        "cnpj_comprador",
+        String(14),
+        server_default=text("51548782000139"),
+        default=text("51548782000139"),
+        nullable=False,
+    )
+    cnpj = Column("cnpj_vendedor", String(14))
     nome = Column("nome", String)
     total = Column("total", Float)
     date = Column("date", DateTime)
@@ -32,6 +40,7 @@ class Nfe(Base):
     def __init__(
         self,
         chave: str,
+        cnpj_comprador: str,
         cnpj: str,
         nome: str,
         total: float,
@@ -43,6 +52,7 @@ class Nfe(Base):
         irrelevant: bool = False,
     ):
         self.chave = chave
+        self.cnpj_comprador = cnpj_comprador
         self.cnpj = cnpj
         self.nome = nome
         self.total = total
@@ -83,3 +93,18 @@ class User(Base):
     def __init__(self, nome: str, password: str):
         self.nome = nome
         self.password = password
+
+
+class Certificado(Base):
+    __tablename__ = "certificados"
+    id = Column("id", Integer, primary_key=True)
+    cnpj = Column("cnpj", String)
+    nsu = Column("ult_nsu", Integer)
+    caminho = Column("caminho", String)
+    validade = Column("validade", DateTime)
+
+    def __init__(self, cnpj: str, nsu: int, caminho: str, validade: datetime.datetime):
+        self.cnpj = cnpj
+        self.nsu = nsu
+        self.caminho = caminho
+        self.validade = validade

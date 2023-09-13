@@ -4,13 +4,14 @@ from pynfe.processamento.comunicacao import ComunicacaoSefaz
 from pynfe.utils.descompactar import DescompactaGzip
 from pynfe.utils.flags import NAMESPACE_NFE
 from lxml import etree
-from sefaz.utils import Certificado
+from sefaz.utils import get_certificados
 from sefaz.baixarChaves import ler_chaves
 from sefaz.xml_parser import get_tags
 import traceback
 
 chaves = ler_chaves()
 
+certificados = get_certificados()
 CNPJ = "51548782000139"
 # CHAVE = '35230732165635000135550020000875431000954920'  # deixar a chave de acesso vazia
 CHAVE = "35230655721559000100550030030706761542551284"
@@ -32,7 +33,13 @@ EVENTO = 1
 CANCELAMENTO = 2
 
 
-def distNfe(chave, nsu, is_nsu: bool = True, is_nsu_especifico: bool = False):
+def distNfe(
+    chave,
+    nsu,
+    is_nsu: bool = True,
+    is_nsu_especifico: bool = False,
+    Certificado=certificados[0],
+):
     maxNsu = float("inf")
     CODIGO_PROCESSADO = 200
     CODIGO_SUCESSO = 137
@@ -124,7 +131,9 @@ def download_xml(resposta):
 chave = "35230624614269000126550010003386141336538648"
 # distNfe(CHAVE, NSU, False, False)s
 
-nsu = 0
+# nsu = 0
+# certificado = certificados[1]
+# print(distNfe("", 200, True, True))
 # maxNsu = float("inf")
 # while nsu <= maxNsu != 0:
 #     nsu, maxNsu = distNfe("", nsu, True, False)
