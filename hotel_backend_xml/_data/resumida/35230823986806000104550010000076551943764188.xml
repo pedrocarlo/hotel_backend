@@ -1,0 +1,13 @@
+<resNFe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.01">
+  <chNFe>35230823986806000104550010000076551943764188</chNFe>
+  <CNPJ>23986806000104</CNPJ>
+  <xNome>ALPHA ATACADISTA E COMERCIO LTDA</xNome>
+  <IE>796418639115</IE>
+  <dhEmi>2023-08-07T16:40:52-03:00</dhEmi>
+  <tpNF>1</tpNF>
+  <vNF>907.56</vNF>
+  <digVal>rKy0tlpNuLu5F6nVulC1b2tcwoE=</digVal>
+  <dhRecbto>2023-08-07T16:44:03-03:00</dhRecbto>
+  <nProt>135231279959631</nProt>
+  <cSitNFe>1</cSitNFe>
+</resNFe>

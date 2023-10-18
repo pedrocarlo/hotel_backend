@@ -1,0 +1,483 @@
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+    <infNFe Id="NFe35230613324184003021550010035452071549846677" versao="4.00">
+      <ide>
+        <cUF>35</cUF>
+        <cNF>54984667</cNF>
+        <natOp>VENDAS DE PRODUCAO PROPRIA OU DE TERCEIROS</natOp>
+        <mod>55</mod>
+        <serie>1</serie>
+        <nNF>3545207</nNF>
+        <dhEmi>2023-06-28T00:00:00-03:00</dhEmi>
+        <dhSaiEnt>2023-06-28T04:45:17-03:00</dhSaiEnt>
+        <tpNF>1</tpNF>
+        <idDest>1</idDest>
+        <cMunFG>3515004</cMunFG>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>7</cDV>
+        <tpAmb>1</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>1</indPres>
+        <procEmi>0</procEmi>
+        <verProc>SynchroDFe_3.6.3.1</verProc>
+      </ide>
+      <emit>
+        <CNPJ>13324184003021</CNPJ>
+        <xNome>VIGOR ALIMENTOS S.A.</xNome>
+        <enderEmit>
+          <xLgr>ROD REGIS BITTENCOURT</xLgr>
+          <nro>1962</nro>
+          <xCpl>SALA 01 GALPAO01 E 02 PARTE 1</xCpl>
+          <xBairro>AGUA MORNA</xBairro>
+          <cMun>3515004</cMun>
+          <xMun>Embu das Artes</xMun>
+          <UF>SP</UF>
+          <CEP>06818000</CEP>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+        </enderEmit>
+        <IE>298219132117</IE>
+        <CRT>3</CRT>
+      </emit>
+      <dest>
+        <CNPJ>51548782000139</CNPJ>
+        <xNome>LIBLANCO EMPREENDIMENTOS IMOBILIARIOS LT</xNome>
+        <enderDest>
+          <xLgr>RUA FREI CANECA</xLgr>
+          <nro>1006</nro>
+          <xCpl>APTO 21</xCpl>
+          <xBairro>CERQUEIRA CESAR</xBairro>
+          <cMun>3550308</cMun>
+          <xMun>Sao Paulo</xMun>
+          <UF>SP</UF>
+          <CEP>01307002</CEP>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+        </enderDest>
+        <indIEDest>9</indIEDest>
+        <email>reserva@sangabrielo.com.br;</email>
+      </dest>
+      <autXML>
+        <CNPJ>23722227000146</CNPJ>
+      </autXML>
+      <det nItem="1">
+        <prod>
+          <cProd>331167</cProd>
+          <cEAN>17891999828016</cEAN>
+          <cBarra>7891999828019</cBarra>
+          <xProd>MANTEIGA EXTRA BLISTER CS VIGOR 192X10G</xProd>
+          <NCM>04051000</NCM>
+          <CFOP>5102</CFOP>
+          <uCom>CXS</uCom>
+          <qCom>2.0000</qCom>
+          <vUnCom>153.6000000000</vUnCom>
+          <vProd>307.20</vProd>
+          <cEANTrib>7891999828019</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>384.0000</qTrib>
+          <vUnTrib>0.8000000000</vUnTrib>
+          <indTot>1</indTot>
+          <xPed>4013219567</xPed>
+          <nItemPed>1</nItemPed>
+        </prod>
+        <imposto>
+          <vTotTrib>21.50</vTotTrib>
+          <ICMS>
+            <ICMS20>
+              <orig>0</orig>
+              <CST>20</CST>
+              <modBC>3</modBC>
+              <pRedBC>61.1111</pRedBC>
+              <vBC>119.47</vBC>
+              <pICMS>18.00</pICMS>
+              <vICMS>21.50</vICMS>
+            </ICMS20>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISNT>
+              <CST>06</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>06</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+        <infAdProd>1530 -  SC=001</infAdProd>
+      </det>
+      <det nItem="2">
+        <prod>
+          <cProd>632277</cProd>
+          <cEAN>17896068000195</cEAN>
+          <cBarra>7896068000198</cBarra>
+          <xProd>CREAM CHEESE BLISTER DAN 144X18G</xProd>
+          <NCM>04061090</NCM>
+          <CEST>1702405</CEST>
+          <CFOP>5102</CFOP>
+          <uCom>CXS</uCom>
+          <qCom>3.0000</qCom>
+          <vUnCom>203.0400000000</vUnCom>
+          <vProd>609.12</vProd>
+          <cEANTrib>7896068000198</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>432.0000</qTrib>
+          <vUnTrib>1.4100000000</vUnTrib>
+          <indTot>1</indTot>
+          <xPed>4013219567</xPed>
+          <nItemPed>2</nItemPed>
+        </prod>
+        <imposto>
+          <vTotTrib>109.64</vTotTrib>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>609.12</vBC>
+              <pICMS>18.00</pICMS>
+              <vICMS>109.64</vICMS>
+            </ICMS00>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISNT>
+              <CST>06</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>06</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+        <infAdProd>632277 -  SC=001</infAdProd>
+      </det>
+      <det nItem="3">
+        <prod>
+          <cProd>778270</cProd>
+          <cEAN>17896625210722</cEAN>
+          <cBarra>7896625210725</cBarra>
+          <xProd>IOG NAT LARCENOUMEL VIGOR VIV 12X150G</xProd>
+          <NCM>04032000</NCM>
+          <CEST>1702100</CEST>
+          <EXTIPI>001</EXTIPI>
+          <CFOP>5405</CFOP>
+          <uCom>CXS</uCom>
+          <qCom>1.0000</qCom>
+          <vUnCom>29.8800000000</vUnCom>
+          <vProd>29.88</vProd>
+          <cEANTrib>7896625210725</cEANTrib>
+          <uTrib>CXS</uTrib>
+          <qTrib>1.0000</qTrib>
+          <vUnTrib>29.8800000000</vUnTrib>
+          <indTot>1</indTot>
+          <xPed>4013219567</xPed>
+          <nItemPed>3</nItemPed>
+        </prod>
+        <imposto>
+          <vTotTrib>0.00</vTotTrib>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+              <pRedBCEfet>0.0000</pRedBCEfet>
+              <vBCEfet>0.00</vBCEfet>
+              <pICMSEfet>0.00</pICMSEfet>
+              <vICMSEfet>0.00</vICMSEfet>
+            </ICMS60>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISNT>
+              <CST>06</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>06</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+        <infAdProd>778270 -  SC=001</infAdProd>
+      </det>
+      <det nItem="4">
+        <prod>
+          <cProd>778272</cProd>
+          <cEAN>17896625210739</cEAN>
+          <cBarra>7896625210732</cBarra>
+          <xProd>IOG NAT INTEGRAL CMEL VIGOR VIV 12X150G</xProd>
+          <NCM>04032000</NCM>
+          <CEST>1702100</CEST>
+          <EXTIPI>001</EXTIPI>
+          <CFOP>5405</CFOP>
+          <uCom>CXS</uCom>
+          <qCom>1.0000</qCom>
+          <vUnCom>29.8800000000</vUnCom>
+          <vProd>29.88</vProd>
+          <cEANTrib>7896625210732</cEANTrib>
+          <uTrib>CXS</uTrib>
+          <qTrib>1.0000</qTrib>
+          <vUnTrib>29.8800000000</vUnTrib>
+          <indTot>1</indTot>
+          <xPed>4013219567</xPed>
+          <nItemPed>4</nItemPed>
+        </prod>
+        <imposto>
+          <vTotTrib>0.00</vTotTrib>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+              <pRedBCEfet>0.0000</pRedBCEfet>
+              <vBCEfet>0.00</vBCEfet>
+              <pICMSEfet>0.00</pICMSEfet>
+              <vICMSEfet>0.00</vICMSEfet>
+            </ICMS60>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISNT>
+              <CST>06</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>06</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+        <infAdProd>778272 -  SC=001</infAdProd>
+      </det>
+      <det nItem="5">
+        <prod>
+          <cProd>781081</cProd>
+          <cEAN>17896625211262</cEAN>
+          <cBarra>7896625211265</cBarra>
+          <xProd>BEBIDA LACTEA POLPA MGO VIGOR TD 8X510G</xProd>
+          <NCM>22029900</NCM>
+          <CEST>1711500</CEST>
+          <EXTIPI>001</EXTIPI>
+          <CFOP>5405</CFOP>
+          <uCom>CXS</uCom>
+          <qCom>1.0000</qCom>
+          <vUnCom>37.7600000000</vUnCom>
+          <vProd>37.76</vProd>
+          <cEANTrib>7896625211265</cEANTrib>
+          <uTrib>CXS</uTrib>
+          <qTrib>1.0000</qTrib>
+          <vUnTrib>37.7600000000</vUnTrib>
+          <indTot>1</indTot>
+          <xPed>4013219567</xPed>
+          <nItemPed>5</nItemPed>
+        </prod>
+        <imposto>
+          <vTotTrib>0.00</vTotTrib>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+              <pRedBCEfet>0.0000</pRedBCEfet>
+              <vBCEfet>0.00</vBCEfet>
+              <pICMSEfet>0.00</pICMSEfet>
+              <vICMSEfet>0.00</vICMSEfet>
+            </ICMS60>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISNT>
+              <CST>06</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>06</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+        <infAdProd>781081 -  SC=001</infAdProd>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>728.59</vBC>
+          <vICMS>131.14</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vFCP>0.00</vFCP>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vFCPST>0.00</vFCPST>
+          <vFCPSTRet>0.00</vFCPSTRet>
+          <vProd>1013.84</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vIPIDevol>0.00</vIPIDevol>
+          <vPIS>0.00</vPIS>
+          <vCOFINS>0.00</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>1013.84</vNF>
+          <vTotTrib>131.14</vTotTrib>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>0</modFrete>
+        <transporta>
+          <CNPJ>23722227000146</CNPJ>
+          <xNome>Y LOGISTICA DO BRASIL LTDA</xNome>
+          <IE>206640699110</IE>
+          <xEnder>ALM RIO NEGRO,503 SALA COMERCIAL 1306 06454000 ALPHAVILLE</xEnder>
+          <xMun>Barueri</xMun>
+          <UF>SP</UF>
+        </transporta>
+        <veicTransp>
+          <placa>HEX4431</placa>
+          <UF>SP</UF>
+        </veicTransp>
+        <vol>
+          <qVol>8</qVol>
+          <esp>CAIXA</esp>
+          <marca>VIGOR</marca>
+          <nVol>3545207</nVol>
+          <pesoL>19.290</pesoL>
+          <pesoB>23.580</pesoB>
+          <lacres>
+            <nLacre>202866</nLacre>
+          </lacres>
+        </vol>
+      </transp>
+      <cobr>
+        <fat>
+          <nFat>003545207</nFat>
+          <vOrig>1013.84</vOrig>
+          <vDesc>0.00</vDesc>
+          <vLiq>1013.84</vLiq>
+        </fat>
+        <dup>
+          <nDup>001</nDup>
+          <dVenc>2023-07-12</dVenc>
+          <vDup>1013.84</vDup>
+        </dup>
+      </cobr>
+      <pag>
+        <detPag>
+          <tPag>15</tPag>
+          <vPag>1013.84</vPag>
+        </detPag>
+      </pag>
+      <infAdic>
+        <infAdFisco>VALOR DOS TRIBUTOS ESTADUAIS: R$ 131.14BASE DE CALCULO REDUZIDA CONF. ART 39  INC II DO ANEXO II DO RICMS/00.REDUCAO DE 61.1111% (CONFORME INCISO IX , ART. 3 DO RICMS/SP)CST           TOTAL   ICMS(%)000          609,12    18,00060           97,52     0,00020          307,20    18,00NAO SE APLICA A SUBSTITUICAO TRIBUTARIA CONF. ART 264, INC IV DO RICMS/00.ICMS/ST RECOLHIDO ANTECIPADO, ARTIGO 313W DO RICMS/SP.VALOR DA BASE DE CALCULO: 51.88 - VALOR DO ICMS ST: 2.72</infAdFisco>
+        <infCpl>DUVIDAS TRIBUTARIAS, ENVIAR E-MAIL PARA duvidas.tributarias@vigor.com.br    ENDERECO PARA ENVIO DE ARQUIVOS XML. E-MAIL: xml.homologacao@vigor.com.br   PLACA CAVALO: HEX4431 / NUMERO DOS LACRES: 202866                     REF. DEVOLUCAO DE MERCADORIA: O PAGAMENTO SERA REALIZADO APENAS VIA DEPOSITO BANCARIO. ABATIMENTOS SOMENTE SERAO AUTORIZADOS MEDIANTE CONTRATO COMERCIAL COM CLAUSULA FINANCEIRA DE ABATIMENTO. COBRANCA E-MAIL: equipe.cobranca@vigor.com.br, TELEFONE: (011) 2799-3870 PAGTO NF EXCLUSIVAMENTE VIA BOLETO BANCARIO    N. PEDIDO: 826421 | S. PEDIDO: 4013219567 | OE: 138166 | PLACA INTERNA: FIXYV12 | VENDEDOR: 4013 | COD. PRAZO PAGTO.: 20 | COD. CLIENTE: 588689</infCpl>
+      </infAdic>
+      <compra>
+        <xCont>2156347</xCont>
+      </compra>
+      <infRespTec>
+        <CNPJ>67185306000300</CNPJ>
+        <xContato>SYNCHRO Solucao Fiscal Brasil</xContato>
+        <email>suportedfe@synchro.com.br</email>
+        <fone>1925129200</fone>
+      </infRespTec>
+    </infNFe>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <Reference URI="#NFe35230613324184003021550010035452071549846677">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+          <DigestValue>U3kSTE0pdxCKyE6SM9Bvj5jdVuo=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>I5Wupuoke8V8lnj1a/FANZgE1ikquPCFGBZOJzo0uh7XCm61E414UM7KBOcyWUropP64tFX+9275
+qecdSmW7mXv8kBPxSQE8Zmi1FEHn4V2qZ+OFh8S1RlkEQPUV3kD73Wa/+W07MdB9bD7hLHRJLCkF
+3uap7VIz3Zit6h12R8UJ3vOFHVcyHIZ5elvMaiYWTn3Ub7plyAduGD8tbkXK6ixuFP0Of/2ypFoy
+WPPRUSUdtiMtbaNwwYBsb42U8K+Ujfvw44bXe3TdUxFhHgfVkmXDK9HASK6G08WEIH5jvxAIYeH/
+cX733PQpDTS3fPWFlCO3J0g8VsNyX5TYYMcXgQ==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>MIIIADCCBeigAwIBAgIQCfDq3CHa904V/YpY6MID1zANBgkqhkiG9w0BAQsFADB4MQswCQYDVQQG
+EwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBkYSBSZWNlaXRh
+IEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRwwGgYDVQQDExNBQyBDZXJ0aXNpZ24gUkZCIEc1MB4X
+DTIzMDIwNzE1MTAyNFoXDTI0MDIwNzE1MTAyNFowge4xCzAJBgNVBAYTAkJSMRMwEQYDVQQKDApJ
+Q1AtQnJhc2lsMQswCQYDVQQIDAJTUDESMBAGA1UEBwwJU2FvIFBhdWxvMRMwEQYDVQQLDApQcmVz
+ZW5jaWFsMRcwFQYDVQQLDA4yMTQ1ODc2MzAwMDE1MDE2MDQGA1UECwwtU2VjcmV0YXJpYSBkYSBS
+ZWNlaXRhIEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRYwFAYDVQQLDA1SRkIgZS1DTlBKIEExMSsw
+KQYDVQQDDCJWSUdPUiBBTElNRU5UT1MgUyBBOjEzMzI0MTg0MDAwMTk3MIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEApC5aVVown6BJeRD3HVKCcTNsyBqmlHn4MhwZ1IC5vEhYo7aC8tf/
+Xvd2qrrTSt+TQGmA7uQD+KS7ouobgLMwqQiQaIL7DoSWkb/IzB8+fHKhUtAzR9tjiOw6nQWS9UHB
+rAJFmbFujQ1X75kLXlnEzP4ctjIhJhq890k/b11hWrqrIy5Yp4cPdul+FElQK17e5WdBCBI6lXRG
+ESzYcqx1PibX29yg43rNrHDfBD5lOW1WoZcFt53PcPCPMs6Va1mAdOSro+6e6Wf25cJfJTb39PrT
+vvMOP/AdlKhUFwps9i5Ziu0fFb5WSMaQSGuIRlot0COnk2P9Zspjqa+lv3g0nQIDAQABo4IDDTCC
+AwkwgbwGA1UdEQSBtDCBsaA9BgVgTAEDBKA0BDIxMDA5MTk3MTY4NzgzMjIxOTcyMDAwMDAwMDAw
+MDAwMDAwMDAwMDE5OTM0NzRTU1BTQ6AfBgVgTAEDAqAWBBRFTUVSU09OIFBBSVZBIElOQUNJT6AZ
+BgVgTAEDA6AQBA4xMzMyNDE4NDAwMDE5N6AXBgVgTAEDB6AOBAwwMDAwMDAwMDAwMDCBG3ZhZ25l
+ci5taXJhbmRhQHZpZ29yLmNvbS5icjAJBgNVHRMEAjAAMB8GA1UdIwQYMBaAFFN9f52+0WHQILra
+n+OJpxNzWM1CMH8GA1UdIAR4MHYwdAYGYEwBAgEMMGowaAYIKwYBBQUHAgEWXGh0dHA6Ly9pY3At
+YnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vZHBjL0FDX0NlcnRpc2lnbl9SRkIv
+RFBDX0FDX0NlcnRpc2lnbl9SRkIucGRmMIG8BgNVHR8EgbQwgbEwV6BVoFOGUWh0dHA6Ly9pY3At
+YnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FDQ2VydGlzaWduUkZCRzUv
+TGF0ZXN0Q1JMLmNybDBWoFSgUoZQaHR0cDovL2ljcC1icmFzaWwub3V0cmFsY3IuY29tLmJyL3Jl
+cG9zaXRvcmlvL2xjci9BQ0NlcnRpc2lnblJGQkc1L0xhdGVzdENSTC5jcmwwDgYDVR0PAQH/BAQD
+AgXgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCBrAYIKwYBBQUHAQEEgZ8wgZwwXwYI
+KwYBBQUHMAKGU2h0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8v
+Y2VydGlmaWNhZG9zL0FDX0NlcnRpc2lnbl9SRkJfRzUucDdjMDkGCCsGAQUFBzABhi1odHRwOi8v
+b2NzcC1hYy1jZXJ0aXNpZ24tcmZiLmNlcnRpc2lnbi5jb20uYnIwDQYJKoZIhvcNAQELBQADggIB
+AJrWEERpTGwLGLFYAqbQ26qkPYP75CVckbYV6QVLlILCQKYaSKxDAmYuIUGGSf8x6v6WzXVJZR2A
+uhweiE/AcakcvxvnQe/t98GD8lksIxmKyyUBBxPpMLDelNI+nnMvGT8ztcfk5qOPvLy4BcoQpjdj
+Jx/bb4NsVxX0kC3cbpDY5IeKthhnjqfSQtZcQjzbnU/XOdU7ee3Q3JESfJhjYleBkA820eXyzikQ
+Ss8+as6tXG5nQbgndJleczaHRTXU6FgWID84JFl9VBGvqIffvKxNBHUlUFPY8Un6TSZhsr4U+qWe
+nld4049j9FQ9lPoL2KgI5sVn6fNJsYvUY1N7i8WO83X1HNHiQ+QVlUFh0w83ToyNsp/8xn7KelVY
+GRcRF39qAjS8XEuZsEott0xk1L7X/DlRu/5s6eSSDeKLmVXDt1IL8Enwy4oVmAhqyJ87UPBji34A
+Oq8D0uvvkIcmYB8iGQj2z531CctVPjyJlJBc0A8Ha1bnxAYqrTg5bBm+dAJGr9ORNJzSIu3cqb3F
+dUPDLEsUeFjmx9xOeOWVfgq0tYG+IZiqMQWHHF4Hru8LAnIcIe0aH2mVGWkxEiSE2YYws+AQy0Mu
+WLYG6f0TD0tExov0zW/c6jZ493UG/fjJxKVLD1TH8m/4EUOXiktRqPJFnVAE1VCL0Otjf4er9lbh</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe versao="4.00">
+    <infProt Id="Id135231013493574">
+      <tpAmb>1</tpAmb>
+      <verAplic>SP_NFE_PL009_V4</verAplic>
+      <chNFe>35230613324184003021550010035452071549846677</chNFe>
+      <dhRecbto>2023-06-28T05:19:42-03:00</dhRecbto>
+      <nProt>135231013493574</nProt>
+      <digVal>U3kSTE0pdxCKyE6SM9Bvj5jdVuo=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+  </protNFe>
+</nfeProc>

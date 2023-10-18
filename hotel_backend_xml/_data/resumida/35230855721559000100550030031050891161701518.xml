@@ -1,0 +1,13 @@
+<resNFe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.01">
+  <chNFe>35230855721559000100550030031050891161701518</chNFe>
+  <CNPJ>55721559000100</CNPJ>
+  <xNome>DISPLOKI DIST. COM. E REPRES. LTDA</xNome>
+  <IE>206187638111</IE>
+  <dhEmi>2023-08-16T12:52:00-03:00</dhEmi>
+  <tpNF>1</tpNF>
+  <vNF>941.40</vNF>
+  <digVal>Os0vFNSkBvDWj9Y4FN7vh203PAY=</digVal>
+  <dhRecbto>2023-08-16T12:52:49-03:00</dhRecbto>
+  <nProt>135231342944290</nProt>
+  <cSitNFe>1</cSitNFe>
+</resNFe>

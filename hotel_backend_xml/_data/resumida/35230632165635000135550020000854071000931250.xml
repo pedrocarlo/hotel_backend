@@ -1,0 +1,13 @@
+<resNFe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.01">
+  <chNFe>35230632165635000135550020000854071000931250</chNFe>
+  <CNPJ>32165635000135</CNPJ>
+  <xNome>CG FOOD'S DISTRIBUIDORA DE ALIMENTOS LTDA</xNome>
+  <IE>123313015112</IE>
+  <dhEmi>2023-06-14T16:08:21-03:00</dhEmi>
+  <tpNF>1</tpNF>
+  <vNF>1202.13</vNF>
+  <digVal>2nzdx+Z7LSqcVY2RhOh4Bs9C40U=</digVal>
+  <dhRecbto>2023-06-14T16:08:21-03:00</dhRecbto>
+  <nProt>135230931260492</nProt>
+  <cSitNFe>1</cSitNFe>
+</resNFe>

@@ -1,0 +1,11 @@
+<resEvento xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.01">
+  <cOrgao>91</cOrgao>
+  <CNPJ>33683111000107</CNPJ>
+  <chNFe>35230601820028000138550020024387361172174747</chNFe>
+  <dhEvento>2023-06-16T14:23:54-03:00</dhEvento>
+  <tpEvento>610600</tpEvento>
+  <nSeqEvento>1</nSeqEvento>
+  <xEvento>Registro de Autoriza&#231;&#227;o de CT-e para a NF-e</xEvento>
+  <dhRecbto>2023-06-16T14:23:54-03:00</dhRecbto>
+  <nProt>891234052674680</nProt>
+</resEvento>

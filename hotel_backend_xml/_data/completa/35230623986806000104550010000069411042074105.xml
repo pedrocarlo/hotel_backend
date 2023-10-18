@@ -1,0 +1,457 @@
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+    <infNFe versao="4.00" Id="NFe35230623986806000104550010000069411042074105">
+      <ide>
+        <cUF>35</cUF>
+        <cNF>04207410</cNF>
+        <natOp>VENDA C/SUBSTITUICAO TRIBUTARI</natOp>
+        <mod>55</mod>
+        <serie>1</serie>
+        <nNF>6941</nNF>
+        <dhEmi>2023-06-26T16:44:40-03:00</dhEmi>
+        <tpNF>1</tpNF>
+        <idDest>1</idDest>
+        <cMunFG>3518800</cMunFG>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>5</cDV>
+        <tpAmb>1</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>1</indPres>
+        <indIntermed>0</indIntermed>
+        <procEmi>0</procEmi>
+        <verProc>NFe_Util_2G</verProc>
+      </ide>
+      <emit>
+        <CNPJ>23986806000104</CNPJ>
+        <xNome>ALPHA ATACADISTA E COMERCIO LTDA</xNome>
+        <xFant>ALPHA ATACADISTA E COMERCIO LTDA</xFant>
+        <enderEmit>
+          <xLgr>RUA SEBASTIAO DOS SANTOS</xLgr>
+          <nro>288</nro>
+          <xBairro>PQ CONTINENTAL</xBairro>
+          <cMun>3518800</cMun>
+          <xMun>GUARULHOS</xMun>
+          <UF>SP</UF>
+          <CEP>07077190</CEP>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+        </enderEmit>
+        <IE>796418639115</IE>
+        <CRT>3</CRT>
+      </emit>
+      <dest>
+        <CNPJ>51548782000139</CNPJ>
+        <xNome>LIBLANCO EMPREENDIMENTOS IMOBILIARIOS S/C LTDA - E</xNome>
+        <enderDest>
+          <xLgr>R  FREI CANECA</xLgr>
+          <nro>1006</nro>
+          <xBairro>CONSOLACAO</xBairro>
+          <cMun>3550308</cMun>
+          <xMun>SAO PAULO</xMun>
+          <UF>SP</UF>
+          <CEP>01307002</CEP>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+          <fone>999093170</fone>
+        </enderDest>
+        <indIEDest>9</indIEDest>
+        <email>informativo@sangabriel.com.br</email>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <cProd>0000000003780</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>S  GAS VERAO LINDOYA AGUA 510MLX12</xProd>
+          <NCM>22011000</NCM>
+          <CFOP>5405</CFOP>
+          <uCom>UN</uCom>
+          <qCom>6</qCom>
+          <vUnCom>15.36</vUnCom>
+          <vProd>92.16</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>6</qTrib>
+          <vUnTrib>15.36</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+              <vBCSTRet>23.22</vBCSTRet>
+              <pST>18.00</pST>
+              <vICMSSubstituto>15.79</vICMSSubstituto>
+              <vICMSSTRet>11.61</vICMSSTRet>
+            </ICMS60>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISNT>
+              <CST>06</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>06</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="2">
+        <prod>
+          <cProd>0000000005098</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>1,5 VERAO LINDOYA S  GAS PCT C 6</xProd>
+          <NCM>22011000</NCM>
+          <CFOP>5405</CFOP>
+          <uCom>UN</uCom>
+          <qCom>20</qCom>
+          <vUnCom>13.32</vUnCom>
+          <vProd>266.40</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>20</qTrib>
+          <vUnTrib>13.32</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+              <vBCSTRet>67.13</vBCSTRet>
+              <pST>18.00</pST>
+              <vICMSSubstituto>45.65</vICMSSubstituto>
+              <vICMSSTRet>33.57</vICMSSTRet>
+            </ICMS60>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISNT>
+              <CST>06</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>06</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="3">
+        <prod>
+          <cProd>0000000000925</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>C  GAS VERAO LINDOYA 510MLX12</xProd>
+          <NCM>22011000</NCM>
+          <CFOP>5405</CFOP>
+          <uCom>UN</uCom>
+          <qCom>4</qCom>
+          <vUnCom>19.92</vUnCom>
+          <vProd>79.68</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>4</qTrib>
+          <vUnTrib>19.92</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+              <vBCSTRet>20.08</vBCSTRet>
+              <pST>18.00</pST>
+              <vICMSSubstituto>13.65</vICMSSubstituto>
+              <vICMSSTRet>10.04</vICMSSTRet>
+            </ICMS60>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISNT>
+              <CST>06</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>06</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="4">
+        <prod>
+          <cProd>0000000001977</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>REF COCA ZERO LT 350MLX12</xProd>
+          <NCM>22021000</NCM>
+          <CFOP>5405</CFOP>
+          <uCom>UN</uCom>
+          <qCom>3</qCom>
+          <vUnCom>44.16</vUnCom>
+          <vProd>132.48</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>3</qTrib>
+          <vUnTrib>44.16</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+              <vBCSTRet>33.38</vBCSTRet>
+              <pST>18.00</pST>
+              <vICMSSubstituto>22.70</vICMSSubstituto>
+              <vICMSSTRet>16.69</vICMSSTRet>
+            </ICMS60>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISAliq>
+              <CST>02</CST>
+              <vBC>132.48</vBC>
+              <pPIS>1.86</pPIS>
+              <vPIS>2.46</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>02</CST>
+              <vBC>132.48</vBC>
+              <pCOFINS>8.54</pCOFINS>
+              <vCOFINS>11.31</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="5">
+        <prod>
+          <cProd>0000000001113</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>REF COCA COLA LT 350MLX12</xProd>
+          <NCM>22021000</NCM>
+          <CFOP>5405</CFOP>
+          <uCom>CX</uCom>
+          <qCom>3</qCom>
+          <vUnCom>36.84</vUnCom>
+          <vProd>110.52</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>CX</uTrib>
+          <qTrib>3</qTrib>
+          <vUnTrib>36.84</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+              <vBCSTRet>27.85</vBCSTRet>
+              <pST>18.00</pST>
+              <vICMSSubstituto>18.94</vICMSSubstituto>
+              <vICMSSTRet>13.93</vICMSSTRet>
+            </ICMS60>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISAliq>
+              <CST>02</CST>
+              <vBC>110.52</vBC>
+              <pPIS>1.86</pPIS>
+              <vPIS>2.06</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>02</CST>
+              <vBC>110.52</vBC>
+              <pCOFINS>8.54</pCOFINS>
+              <vCOFINS>9.44</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="6">
+        <prod>
+          <cProd>0000000008334</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>REF FANTA UVA LT 350MLX6</xProd>
+          <NCM>22021000</NCM>
+          <CFOP>5405</CFOP>
+          <uCom>UN</uCom>
+          <qCom>1</qCom>
+          <vUnCom>20.88</vUnCom>
+          <vProd>20.88</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>1</qTrib>
+          <vUnTrib>20.88</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+              <vBCSTRet>5.26</vBCSTRet>
+              <pST>18.00</pST>
+              <vICMSSubstituto>3.58</vICMSSubstituto>
+              <vICMSSTRet>2.63</vICMSSTRet>
+            </ICMS60>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISAliq>
+              <CST>02</CST>
+              <vBC>20.88</vBC>
+              <pPIS>1.86</pPIS>
+              <vPIS>0.39</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>02</CST>
+              <vBC>20.88</vBC>
+              <pCOFINS>8.54</pCOFINS>
+              <vCOFINS>1.78</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>0.00</vBC>
+          <vICMS>0.00</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vFCP>0.00</vFCP>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vFCPST>0.00</vFCPST>
+          <vFCPSTRet>0.00</vFCPSTRet>
+          <vProd>702.12</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vIPIDevol>0.00</vIPIDevol>
+          <vPIS>4.91</vPIS>
+          <vCOFINS>22.53</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>702.12</vNF>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>1</modFrete>
+        <transporta>
+          <CNPJ>27552091000124</CNPJ>
+          <xNome>DENVER MONCULO</xNome>
+          <xEnder>AVENIDA NORBERTO BRAZ,232</xEnder>
+          <xMun>GUARULHOS</xMun>
+          <UF>SP</UF>
+        </transporta>
+        <vol>
+          <qVol>34</qVol>
+          <pesoL>284.130</pesoL>
+          <pesoB>284.130</pesoB>
+        </vol>
+      </transp>
+      <cobr>
+        <fat>
+          <nFat>6941</nFat>
+          <vOrig>702.12</vOrig>
+          <vDesc>0.00</vDesc>
+          <vLiq>702.12</vLiq>
+        </fat>
+        <dup>
+          <nDup>001</nDup>
+          <dVenc>2023-07-03</dVenc>
+          <vDup>702.12</vDup>
+        </dup>
+      </cobr>
+      <pag>
+        <detPag>
+          <indPag>0</indPag>
+          <tPag>15</tPag>
+          <vPag>702.12</vPag>
+        </detPag>
+      </pag>
+      <infAdic>
+        <infCpl>- [ 001631]  [ PEDIDO  PV-0012336/01 ]  [ F.PAG  BOLETO ITAU ]  [ VD  000169 MAYARA ARAUJO ]  [ PRODUTOS COM CST 60 ICMS RETIDO RECOLHIDO ANTERIORMENTE. ] 9-15 HS - VALOR PIS  R$ 4,91.  - VALOR COFINS  R$ 22,53. - TRIB APROX R$ 99,03 FEDERAL E  126,38 ESTADUAL - (32,10%)  FONTE  IBPT 3EF85C</infCpl>
+      </infAdic>
+      <infRespTec>
+        <CNPJ>01531420000167</CNPJ>
+        <xContato>VICENTE NAPOLITANO</xContato>
+        <email>vicente@softcominformatica.com.br</email>
+        <fone>1122524052</fone>
+      </infRespTec>
+    </infNFe>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <Reference URI="#NFe35230623986806000104550010000069411042074105">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+          <DigestValue>5ONSVREyI/yGo1ROm9WPkvthP28=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>r0H4BKMRwq6x9GcozPlJkpG2okXkVYzzrGZEMTT737yNM6MLAN42nQcUalBHaytZiAEZUrI/JRb5zdVv8KD0eR2h2lMQGVGV4ndjySFNRvQUl728EcEBZPwQaOowvBqqwhmgUgXgvZJcbpHYpZNbWPRSAaEBV8UMTGnm2hVg5oMunYhL8Y6rme3sdqkFTq3ZRUKHl64xv5DKGp4s3SyIlG/P97LGj20vsNNVg3KgaRYAQtl7v6sHJ1cC0yQTfoFI1nLK1acr4ktfOjclsLyGm1SDj2v6tV1N+2dzPhMk2IZW9GSPF01mj4K41xVGVbnh1JJPs0kUczoT1XzrSttV6A==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>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</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe versao="4.00">
+    <infProt Id="Id135231003371183">
+      <tpAmb>1</tpAmb>
+      <verAplic>SP_NFE_PL009_V4</verAplic>
+      <chNFe>35230623986806000104550010000069411042074105</chNFe>
+      <dhRecbto>2023-06-26T16:47:39-03:00</dhRecbto>
+      <nProt>135231003371183</nProt>
+      <digVal>5ONSVREyI/yGo1ROm9WPkvthP28=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+  </protNFe>
+</nfeProc>

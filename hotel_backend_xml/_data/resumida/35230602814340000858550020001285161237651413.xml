@@ -1,0 +1,13 @@
+<resNFe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.01">
+  <chNFe>35230602814340000858550020001285161237651413</chNFe>
+  <CNPJ>02814340000858</CNPJ>
+  <xNome>DISTRIBUIDORA E IMPORTADORA IRMAOS AVELINO S.A.</xNome>
+  <IE>134940665110</IE>
+  <dhEmi>2023-06-14T16:21:00-03:00</dhEmi>
+  <tpNF>1</tpNF>
+  <vNF>854.33</vNF>
+  <digVal>FP7bYlM/w5sutfFzCUKqxfG12DY=</digVal>
+  <dhRecbto>2023-06-14T16:18:49-03:00</dhRecbto>
+  <nProt>135230931355496</nProt>
+  <cSitNFe>1</cSitNFe>
+</resNFe>

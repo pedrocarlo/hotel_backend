@@ -1,0 +1,13 @@
+<resNFe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.01">
+  <chNFe>41230607467266000198550010000675181656154721</chNFe>
+  <CNPJ>07467266000198</CNPJ>
+  <xNome>TERRA BRASILIS SABONETES E COSMETICOS LTDA</xNome>
+  <IE>9034786248</IE>
+  <dhEmi>2023-06-20T16:30:00-03:00</dhEmi>
+  <tpNF>1</tpNF>
+  <vNF>5180.08</vNF>
+  <digVal>RiW3o99SFYBcWdlKlhyIitPWjWM=</digVal>
+  <dhRecbto>2023-06-20T16:37:03-03:00</dhRecbto>
+  <nProt>141230156898496</nProt>
+  <cSitNFe>1</cSitNFe>
+</resNFe>

@@ -1,0 +1,13 @@
+<resNFe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.01">
+  <chNFe>35230871998819000138550010000022821008268363</chNFe>
+  <CNPJ>71998819000138</CNPJ>
+  <xNome>ferreira-marti comercio de frutas e verduras ltda</xNome>
+  <IE>286277781110</IE>
+  <dhEmi>2023-08-08T16:34:35-03:00</dhEmi>
+  <tpNF>1</tpNF>
+  <vNF>296.60</vNF>
+  <digVal>raqMj5e7SXo0jkTutJKQmV91Jf0=</digVal>
+  <dhRecbto>2023-08-08T16:34:36-03:00</dhRecbto>
+  <nProt>135231289055012</nProt>
+  <cSitNFe>1</cSitNFe>
+</resNFe>

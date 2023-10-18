@@ -1,0 +1,13 @@
+<resNFe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.01">
+  <chNFe>35230865579336000104550000006787121107491022</chNFe>
+  <CNPJ>65579336000104</CNPJ>
+  <xNome>AVONA REPRESENTACOES COMERCIAIS LTDA</xNome>
+  <IE>286179247110</IE>
+  <dhEmi>2023-08-02T17:15:00-03:00</dhEmi>
+  <tpNF>1</tpNF>
+  <vNF>881.40</vNF>
+  <digVal>3potlp505JKnyxE3HLadRq913IU=</digVal>
+  <dhRecbto>2023-08-02T17:13:44-03:00</dhRecbto>
+  <nProt>135231249611087</nProt>
+  <cSitNFe>1</cSitNFe>
+</resNFe>

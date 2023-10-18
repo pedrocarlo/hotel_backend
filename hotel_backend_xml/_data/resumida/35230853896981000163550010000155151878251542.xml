@@ -1,0 +1,13 @@
+<resNFe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.01">
+  <chNFe>35230853896981000163550010000155151878251542</chNFe>
+  <CNPJ>53896981000163</CNPJ>
+  <xNome>ATACADAO AUGUSTA MATERIAIS PARA CONSTRUCAO EIRELI</xNome>
+  <IE>111132800115</IE>
+  <dhEmi>2023-08-29T10:21:33-03:00</dhEmi>
+  <tpNF>1</tpNF>
+  <vNF>3189.10</vNF>
+  <digVal>3B9WhNqrbINAA1GBn8qJK7u9DJc=</digVal>
+  <dhRecbto>2023-08-29T10:21:45-03:00</dhRecbto>
+  <nProt>135231423660555</nProt>
+  <cSitNFe>1</cSitNFe>
+</resNFe>

@@ -1,0 +1,370 @@
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+    <infNFe Id="NFe35230617661069000169550010000019261712908579" versao="4.00">
+      <ide>
+        <cUF>35</cUF>
+        <cNF>71290857</cNF>
+        <natOp>Venda de mercadorias</natOp>
+        <mod>55</mod>
+        <serie>1</serie>
+        <nNF>1926</nNF>
+        <dhEmi>2023-06-29T14:51:01-03:00</dhEmi>
+        <tpNF>1</tpNF>
+        <idDest>1</idDest>
+        <cMunFG>3547809</cMunFG>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>9</cDV>
+        <tpAmb>1</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>9</indPres>
+        <indIntermed>0</indIntermed>
+        <procEmi>0</procEmi>
+        <verProc>Tiny ERP</verProc>
+      </ide>
+      <emit>
+        <CNPJ>17661069000169</CNPJ>
+        <xNome>STA PARTS COMERCIO E SERVICOS LTDA</xNome>
+        <xFant>STA GERADORES</xFant>
+        <enderEmit>
+          <xLgr>Rua Senador Flaquer</xLgr>
+          <nro>916</nro>
+          <xCpl>Sala 04</xCpl>
+          <xBairro>Centro</xBairro>
+          <cMun>3547809</cMun>
+          <xMun>Santo Andre</xMun>
+          <UF>SP</UF>
+          <CEP>09010160</CEP>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+          <fone>1144366990</fone>
+        </enderEmit>
+        <IE>626475882112</IE>
+        <IM>215363</IM>
+        <CNAE>3313901</CNAE>
+        <CRT>1</CRT>
+      </emit>
+      <dest>
+        <CNPJ>51548782000139</CNPJ>
+        <xNome>LIBLANCO EMPREENDIMENTOS IMOBILIARIOS LTDA</xNome>
+        <enderDest>
+          <xLgr>Rua Frei Caneca</xLgr>
+          <nro>1006</nro>
+          <xBairro>Cerqueira Cesar</xBairro>
+          <cMun>3550308</cMun>
+          <xMun>Sao Paulo</xMun>
+          <UF>SP</UF>
+          <CEP>01307002</CEP>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+          <fone>1132532279</fone>
+        </enderDest>
+        <indIEDest>9</indIEDest>
+        <email>rogerio@sangabriel.com.br</email>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <cProd>MM001</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>707/43-FILTRO COMBUSTIVEL</xProd>
+          <NCM>84212990</NCM>
+          <CFOP>5405</CFOP>
+          <uCom>PC</uCom>
+          <qCom>2.0000</qCom>
+          <vUnCom>34.02</vUnCom>
+          <vProd>68.04</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>PC</uTrib>
+          <qTrib>2.0000</qTrib>
+          <vUnTrib>34.02</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <vTotTrib>17.32</vTotTrib>
+          <ICMS>
+            <ICMSSN102>
+              <orig>0</orig>
+              <CSOSN>400</CSOSN>
+            </ICMSSN102>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPITrib>
+              <CST>99</CST>
+              <vBC>68.04</vBC>
+              <pIPI>0.00</pIPI>
+              <vIPI>0.00</vIPI>
+            </IPITrib>
+          </IPI>
+          <PIS>
+            <PISOutr>
+              <CST>99</CST>
+              <vBC>68.04</vBC>
+              <pPIS>0.00</pPIS>
+              <vPIS>0.00</vPIS>
+            </PISOutr>
+          </PIS>
+          <COFINS>
+            <COFINSOutr>
+              <CST>99</CST>
+              <vBC>68.04</vBC>
+              <pCOFINS>0.00</pCOFINS>
+              <vCOFINS>0.00</vCOFINS>
+            </COFINSOutr>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="2">
+        <prod>
+          <cProd>MM109</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>521/962-FILTRO LUBRIFICANTE</xProd>
+          <NCM>84212300</NCM>
+          <CFOP>5405</CFOP>
+          <uCom>PC</uCom>
+          <qCom>1.0000</qCom>
+          <vUnCom>90.75</vUnCom>
+          <vProd>90.75</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>PC</uTrib>
+          <qTrib>1.0000</qTrib>
+          <vUnTrib>90.75</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <vTotTrib>29.79</vTotTrib>
+          <ICMS>
+            <ICMSSN102>
+              <orig>0</orig>
+              <CSOSN>400</CSOSN>
+            </ICMSSN102>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPITrib>
+              <CST>99</CST>
+              <vBC>90.75</vBC>
+              <pIPI>0.00</pIPI>
+              <vIPI>0.00</vIPI>
+            </IPITrib>
+          </IPI>
+          <PIS>
+            <PISOutr>
+              <CST>99</CST>
+              <vBC>90.75</vBC>
+              <pPIS>0.00</pPIS>
+              <vPIS>0.00</vPIS>
+            </PISOutr>
+          </PIS>
+          <COFINS>
+            <COFINSOutr>
+              <CST>99</CST>
+              <vBC>90.75</vBC>
+              <pCOFINS>0.00</pCOFINS>
+              <vCOFINS>0.00</vCOFINS>
+            </COFINSOutr>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="3">
+        <prod>
+          <cProd>MQ001</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>OLEO LUBRIFICANTE</xProd>
+          <NCM>27101932</NCM>
+          <CFOP>5405</CFOP>
+          <uCom>L</uCom>
+          <qCom>20.0000</qCom>
+          <vUnCom>42.15</vUnCom>
+          <vProd>843.00</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>L</uTrib>
+          <qTrib>20.0000</qTrib>
+          <vUnTrib>42.15</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <vTotTrib>324.13</vTotTrib>
+          <ICMS>
+            <ICMSSN102>
+              <orig>0</orig>
+              <CSOSN>400</CSOSN>
+            </ICMSSN102>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPITrib>
+              <CST>99</CST>
+              <vBC>843.00</vBC>
+              <pIPI>0.00</pIPI>
+              <vIPI>0.00</vIPI>
+            </IPITrib>
+          </IPI>
+          <PIS>
+            <PISOutr>
+              <CST>99</CST>
+              <vBC>843.00</vBC>
+              <pPIS>0.00</pPIS>
+              <vPIS>0.00</vPIS>
+            </PISOutr>
+          </PIS>
+          <COFINS>
+            <COFINSOutr>
+              <CST>99</CST>
+              <vBC>843.00</vBC>
+              <pCOFINS>0.00</pCOFINS>
+              <vCOFINS>0.00</vCOFINS>
+            </COFINSOutr>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="4">
+        <prod>
+          <cProd>ME105</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>BATERIA 5AH ( A BASE DE TROCA)</xProd>
+          <NCM>85071090</NCM>
+          <CFOP>5405</CFOP>
+          <uCom>PC</uCom>
+          <qCom>1.0000</qCom>
+          <vUnCom>211.85</vUnCom>
+          <vProd>211.85</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>PC</uTrib>
+          <qTrib>1.0000</qTrib>
+          <vUnTrib>211.85</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <vTotTrib>72.73</vTotTrib>
+          <ICMS>
+            <ICMSSN102>
+              <orig>0</orig>
+              <CSOSN>400</CSOSN>
+            </ICMSSN102>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPITrib>
+              <CST>99</CST>
+              <vBC>211.85</vBC>
+              <pIPI>0.00</pIPI>
+              <vIPI>0.00</vIPI>
+            </IPITrib>
+          </IPI>
+          <PIS>
+            <PISOutr>
+              <CST>99</CST>
+              <vBC>211.85</vBC>
+              <pPIS>0.00</pPIS>
+              <vPIS>0.00</vPIS>
+            </PISOutr>
+          </PIS>
+          <COFINS>
+            <COFINSOutr>
+              <CST>99</CST>
+              <vBC>211.85</vBC>
+              <pCOFINS>0.00</pCOFINS>
+              <vCOFINS>0.00</vCOFINS>
+            </COFINSOutr>
+          </COFINS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>0.00</vBC>
+          <vICMS>0.00</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vFCPUFDest>0.00</vFCPUFDest>
+          <vICMSUFDest>0.00</vICMSUFDest>
+          <vICMSUFRemet>0.00</vICMSUFRemet>
+          <vFCP>0.00</vFCP>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vFCPST>0.00</vFCPST>
+          <vFCPSTRet>0.00</vFCPSTRet>
+          <vProd>1213.64</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vIPIDevol>0.00</vIPIDevol>
+          <vPIS>0.00</vPIS>
+          <vCOFINS>0.00</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>1213.64</vNF>
+          <vTotTrib>443.97</vTotTrib>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>9</modFrete>
+        <vol>
+          <pesoL>0.000</pesoL>
+          <pesoB>0.000</pesoB>
+        </vol>
+      </transp>
+      <cobr>
+        <fat>
+          <nFat>1926</nFat>
+          <vOrig>1213.64</vOrig>
+          <vDesc>0</vDesc>
+          <vLiq>1213.64</vLiq>
+        </fat>
+        <dup>
+          <nDup>001</nDup>
+          <dVenc>2023-07-13</dVenc>
+          <vDup>1213.64</vDup>
+        </dup>
+      </cobr>
+      <pag>
+        <detPag>
+          <tPag>15</tPag>
+          <vPag>1213.64</vPag>
+        </detPag>
+      </pag>
+      <infAdic>
+        <infCpl>EMPRESA OPTANTE PELO SIMPLES NACIONAL, NAO GERA DIREITO A CREDITO FISCAL DE ISS E IPI.&lt;br /&gt;&lt;br /&gt;Tributos aproximados: R$ 183,30 (Federal) e R$ 260,67 (Estadual). Fonte: IBPT FADD79&lt;br /&gt;PRAZO DE GARANTIA PARA PECAS E SERVICOS: 90 DIAS A PARTIR DA EMISSAO DA NOTA FISCAL</infCpl>
+      </infAdic>
+      <infRespTec>
+        <CNPJ>15088992000128</CNPJ>
+        <xContato>Fernando</xContato>
+        <email>integracao@tiny.com.br</email>
+        <fone>05430558200</fone>
+      </infRespTec>
+    </infNFe>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <Reference URI="#NFe35230617661069000169550010000019261712908579">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+          <DigestValue>CvTW8OuxbmCeUrX/Stp137+e3N4=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>YF8di64ZnZzSV5mlQEtkFNPeaxqyQBUCFuf6qMSmEIC9tCsOTk+S9BQkaVSiC9qcl+nYi/nKeJuwwOYi9kLQFy6HqLlZPDfr0KF8AL08zsh54f0oeHqx9zjl1haUaNliDpiLalqJ8NQPGiODSJAqLPJqfVT5zJK7VPU7U39P9JgGXBAjsgx11MexK3ILADLCNgzXg5ZXCq/MKXEe+eNe4LqJGqvxtGrvfjbaefgJ4PHexqtbI9gG1tQgS7DdQxWu8YlYGD2LkiJ2mOVURPiwkiZVqOFNwi0VkFjYryBefQl7ieEf1WpZZj+UjYZo2bsYlW0gEJEKTNRiSMS+14FQPA==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>MIIIFjCCBf6gAwIBAgIQaV8lushHi6ES7tQQsXzAzDANBgkqhkiG9w0BAQsFADB4MQswCQYDVQQGEwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBkYSBSZWNlaXRhIEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRwwGgYDVQQDExNBQyBDZXJ0aXNpZ24gUkZCIEc1MB4XDTIzMDQwNDEyMzYzM1oXDTI0MDQwMzEyMzYzM1owgf8xCzAJBgNVBAYTAkJSMRMwEQYDVQQKDApJQ1AtQnJhc2lsMQswCQYDVQQIDAJTUDEUMBIGA1UEBwwLU2FudG8gQW5kcmUxEzARBgNVBAsMClByZXNlbmNpYWwxFzAVBgNVBAsMDjU0NjU5NzUwMDAwMTA3MTYwNAYDVQQLDC1TZWNyZXRhcmlhIGRhIFJlY2VpdGEgRmVkZXJhbCBkbyBCcmFzaWwgLSBSRkIxFjAUBgNVBAsMDVJGQiBlLUNOUEogQTExOjA4BgNVBAMMMVNUQSBQQVJUUyBDT01FUkNJTyBFIFNFUlZJQ09TIExUREE6MTc2NjEwNjkwMDAxNjkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCJW6s7PPtnbjLf/vKuYcYD0abrAAWY3r58oC/ZOv01IMpUdjWcZ+oO4VxK6n0sBcAh3rYIffNft06wFHHPcbVMdfJlTZdCjaOMrtB/cpdq1gFGbv+U3pFkXsjboi3lxKUVr4g/GxaIThX86DP7hsCzWuaAk5lTFPsi3dSjJGvEeCb7VEyNPea9vL5XidukkCtF2ZJXPXaApzCC7FNrhSmsKCSYEzukW3rxK9qb1RN8FrTOO6ZJAnlbBHQMIaiL4S6Wx4TM+f4G2w+248P8FYtbOEtzyhYvYu2wwemoA3b+ZGHwmHDgomIEyeAh8+q+zx75cRPdrzO8RuDVWYoK4vnFAgMBAAGjggMSMIIDDjCBwQYDVR0RBIG5MIG2oD0GBWBMAQMEoDQEMjAzMDQxOTc0MTcyNDcyMDc4MzMwMDAwMDAwMDAwMDAwMDAwMDAxODY5NzAyOHNzcFNQoCYGBWBMAQMCoB0EG0VEVUFSRE8gREEgQ09TVEEgRklHVUVJUkVET6AZBgVgTAEDA6AQBA4xNzY2MTA2OTAwMDE2OaAXBgVgTAEDB6AOBAwwMDAwMDAwMDAwMDCBGW1vYWNpcmNvbnRhYmlsQHVvbC5jb20uYnIwCQYDVR0TBAIwADAfBgNVHSMEGDAWgBRTfX+dvtFh0CC62p/jiacTc1jNQjB/BgNVHSAEeDB2MHQGBmBMAQIBDDBqMGgGCCsGAQUFBwIBFlxodHRwOi8vaWNwLWJyYXNpbC5jZXJ0aXNpZ24uY29tLmJyL3JlcG9zaXRvcmlvL2RwYy9BQ19DZXJ0aXNpZ25fUkZCL0RQQ19BQ19DZXJ0aXNpZ25fUkZCLnBkZjCBvAYDVR0fBIG0MIGxMFegVaBThlFodHRwOi8vaWNwLWJyYXNpbC5jZXJ0aXNpZ24uY29tLmJyL3JlcG9zaXRvcmlvL2xjci9BQ0NlcnRpc2lnblJGQkc1L0xhdGVzdENSTC5jcmwwVqBUoFKGUGh0dHA6Ly9pY3AtYnJhc2lsLm91dHJhbGNyLmNvbS5ici9yZXBvc2l0b3Jpby9sY3IvQUNDZXJ0aXNpZ25SRkJHNS9MYXRlc3RDUkwuY3JsMA4GA1UdDwEB/wQEAwIF4DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwgawGCCsGAQUFBwEBBIGfMIGcMF8GCCsGAQUFBzAChlNodHRwOi8vaWNwLWJyYXNpbC5jZXJ0aXNpZ24uY29tLmJyL3JlcG9zaXRvcmlvL2NlcnRpZmljYWRvcy9BQ19DZXJ0aXNpZ25fUkZCX0c1LnA3YzA5BggrBgEFBQcwAYYtaHR0cDovL29jc3AtYWMtY2VydGlzaWduLXJmYi5jZXJ0aXNpZ24uY29tLmJyMA0GCSqGSIb3DQEBCwUAA4ICAQAIqoT+U/T8hS9LOs/o4hycrVe8LTdp1vjYhfuGhc0cvF/ULECsIQutRPEqTxdJR2AhC1mWx3jkTFbZX28WhphIzA992NxJSOjZnEvqpFG48rOxxbZvL0AfvvKgVKHbLYQS9mSuUQ0etc4YF2IJFmdulYpaZOb+GESz6YOfnUcG/Xl4J3gPK08kttFkKk/70Ljakk/ywuaakrSt9Cb2rV844YtHn5BajNpN813XzTINZj+dx0p/L5ScaHr2cX4GUggbfwkIax79qnC307obrdKngd6LPVg0t1zsL+kj25ZS9exEDhp9dDbkXV6tjNB9YXRcwPH3hhIfkSSy+PEUiHqs8jtk37wD1fkCwDbo8+vB3D/oO0DWEZtWH4f/FlNORfZRjRhu7y8HYJlsA9A/HJb9onvqsa7s3bZFwyNVpaHMvoLTOc3Bufb6Zb1L+p/0cMewsfifmc6TDx2HccR3FP6x4xkTyoq328iOjeHwncb1hfysgUYW3GJwLLXUj1neKTRs3fvEO6EtS2EYZ8cvryY+vT0FiuZP+xiPll8ltA14Lh63RijA7e1GBaxzmByDwO3AjOri7qgUnhPMn2O12I0zQvZD9euaL15/Ry1NJ9havgdO6OdFGhkCssK4PODRUkumnxcYMj/oZK/7kFVeLw/xFZ9vXnQ7ZUJHGWPwCD7XIg==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe versao="4.00">
+    <infProt Id="Id135231024868838">
+      <tpAmb>1</tpAmb>
+      <verAplic>SP_NFE_PL009_V4</verAplic>
+      <chNFe>35230617661069000169550010000019261712908579</chNFe>
+      <dhRecbto>2023-06-29T14:52:04-03:00</dhRecbto>
+      <nProt>135231024868838</nProt>
+      <digVal>CvTW8OuxbmCeUrX/Stp137+e3N4=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+  </protNFe>
+</nfeProc>
