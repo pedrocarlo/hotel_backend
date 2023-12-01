@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, extract, select
+from sqlalchemy import create_engine, extract, select, not_
 from sqlalchemy.orm import sessionmaker, Session
 import os
 from os import path
@@ -62,8 +62,8 @@ def get_manifestada(session: Session):
 
 def get_general(session: Session, params: schemas.NfeQueryParams):
     query = session.query(Nfe)
-    if params.cnpj:
-        query = query.filter(Nfe.cnpj == params.cnpj)
+    if params.cnpj_vendedor:
+        query = query.filter(Nfe.cnpj_vendedor == params.cnpj_vendedor)
     if params.nome:
         query = query.filter(Nfe.nome.contains(params.nome))
     if params.total:
@@ -127,6 +127,20 @@ def insert_xml_from_folder(folder):
         session.commit()
     finally:
         session.close()
+
+
+def update_notas_desbravador(chaves_list: list[str]) -> dict[str, str]:
+    session = get_session()
+    try:
+        for chave in chaves_list:
+            session.query(Nfe).filter(Nfe.chave == chave).update(
+                {Nfe.desbravador: not_(Nfe.desbravador)}
+            )
+    except Exception as e:
+        return {"err": str(e)}
+    finally:
+        session.commit()
+    return {"result": "success"}
 
 
 # insert_xml_from_folder(cwd + "/" + "xml/completa")

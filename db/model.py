@@ -25,7 +25,7 @@ class Nfe(Base):
         default=text("51548782000139"),
         nullable=False,
     )
-    cnpj = Column("cnpj_vendedor", String(14))
+    cnpj_vendedor = Column("cnpj_vendedor", String(14))
     nome = Column("nome", String)
     total = Column("total", Float)
     date = Column("date", DateTime)
@@ -53,7 +53,7 @@ class Nfe(Base):
     ):
         self.chave = chave
         self.cnpj_comprador = cnpj_comprador
-        self.cnpj = cnpj
+        self.cnpj_vendedor = cnpj
         self.nome = nome
         self.total = total
         self.date = date
@@ -64,7 +64,7 @@ class Nfe(Base):
         self.irrelevant = irrelevant
 
     def __repr__(self):
-        return f"{self.chave[:10]} {self.cnpj} {self.nome[:15]} {self.date} \
+        return f"{self.chave[:10]} {self.cnpj_vendedor} {self.nome[:15]} {self.date} \
               {'compleat' if self.completa else 'resumida'} \
                 manifestada:{self.manifestada} \
                 desbravador:{self.desbravador}"

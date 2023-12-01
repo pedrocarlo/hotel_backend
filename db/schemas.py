@@ -35,7 +35,7 @@ class Config:
 class NfeQueryParams(BaseModel):
     model_config = ConfigDict(extra="ignore")
 
-    cnpj: Annotated[Optional[str], Query(min_length=11, max_length=14)] = None
+    cnpj_vendedor: Annotated[Optional[str], Query(min_length=11, max_length=14)] = None
     nome: Annotated[Optional[str], None] = None
     total: Annotated[Optional[Decimal], Query(ge=0)] = None
     start_date: Annotated[Optional[datetime.datetime], None] = None
@@ -44,6 +44,7 @@ class NfeQueryParams(BaseModel):
     manifestada: Annotated[Optional[bool], None] = None
     manifestando: Annotated[Optional[bool], None] = None
     desbravador: Annotated[Optional[bool], None] = None
+
 
 
 class UserBase(BaseModel):
