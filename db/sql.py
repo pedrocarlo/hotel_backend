@@ -1,3 +1,5 @@
+import datetime
+import secrets
 from sqlalchemy import create_engine, extract, select, not_
 from sqlalchemy.orm import sessionmaker, Session
 import os
@@ -140,7 +142,48 @@ def update_notas_desbravador(chaves_list: list[str]) -> dict[str, str]:
         return {"err": str(e)}
     finally:
         session.commit()
+        session.close()
     return {"result": "success"}
+
+
+# Retorna usuario do banco de dados ou nada se falhar por algum motivo
+def login_username(username: str, hash_password: str) -> User | None:
+    session = get_session()
+    user = None
+    try:
+        user_query = session.query(User).filter(
+            User.ativo == True,
+            User.nome == username,
+            User.password == hash_password,
+            User.token_expiracao > datetime.datetime.now(),
+        )
+        user = user_query.first()
+        # Sucesso
+        if user is not None:
+            # Criar novo token
+            user.token = secrets.token_hex(16)
+            user.token_expiracao = datetime.datetime.now() + datetime.timedelta(days=5)
+            session.commit()
+        # Proxima Possivel Feature: log tentativa de acesso
+    finally:
+        session.close()
+    return user
+
+
+def login_token(token: str) -> User | None:
+    session = get_session()
+    user = None
+    try:
+        user_query = session.query(User).filter(
+            User.ativo == True,
+            User.token == token,
+            User.token_expiracao > datetime.datetime.now(),
+        )
+        user = user_query.first()
+        # Proxima Possivel Feature: log tentativa de acesso
+    finally:
+        session.close()
+    return user
 
 
 # insert_xml_from_folder(cwd + "/" + "xml/completa")

@@ -11,6 +11,10 @@ from sqlalchemy import (
 )
 from sqlalchemy.orm import declarative_base
 import datetime
+import secrets
+import locale
+
+locale.setlocale(locale.LC_TIME, "pt_BR.utf8")
 
 Base = declarative_base()
 
@@ -65,7 +69,7 @@ class Nfe(Base):
 
     def __repr__(self):
         return f"{self.chave[:10]} {self.cnpj_vendedor} {self.nome[:15]} {self.date} \
-              {'compleat' if self.completa else 'resumida'} \
+              {'completa' if self.completa else 'resumida'} \
                 manifestada:{self.manifestada} \
                 desbravador:{self.desbravador}"
 
@@ -85,14 +89,27 @@ class Nfe(Base):
 class User(Base):
     __tablename__ = "user"
     id = Column("id", Integer, primary_key=True)
-    nome = Column("nome", String)
+    admin = Column(
+        "admin",
+        Boolean,
+        nullable=False,
+        server_default=text("false"),
+        default=text("false"),
+    )
+    nome = Column("nome", String, nullable=False)
     # TODO lembrar de hash a senha dos users
-    password = Column("senha", String)
-    ativo = Column("ativo", Boolean)
+    password = Column("senha", String, nullable=False)
+    ativo = Column("ativo", Boolean, nullable=False)
+    token = Column("token", String)
+    token_expiracao = Column("token_expiracao", DateTime)
 
     def __init__(self, nome: str, password: str):
         self.nome = nome
         self.password = password
+        self.ativo = True
+        self.token = secrets.token_hex(16)
+        # a principio esta timezone Brasil
+        self.token_expiracao = datetime.datetime.now() + datetime.timedelta(days=5)
 
 
 class Certificado(Base):

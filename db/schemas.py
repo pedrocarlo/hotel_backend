@@ -46,18 +46,24 @@ class NfeQueryParams(BaseModel):
     desbravador: Annotated[Optional[bool], None] = None
 
 
-
-class UserBase(BaseModel):
-    pass
-
-
-class UserCreate(UserBase):
-    password: str
+class LoginUsername(BaseModel):
+    username: Annotated[str, None]
+    hash_password: Annotated[str, None]
 
 
-class User(UserBase):
-    id: int
-    active: bool
+class UserRequest(BaseModel):
+    login_info: Annotated[Optional[LoginUsername], None] = None
+    token: Annotated[Optional[str], "Auth Token"] = None
+
+
+class UserResponse(BaseModel):
+    # id: int
+    # active: bool
+    # expire: datetime.datetime
+    success: bool
+    token: Annotated[Optional[str], "Auth Token"] = None  # Maybe not so safe doing this
+    err: Annotated[Optional[str], None] = None
+    admin: Annotated[Optional[bool], None] = None
 
     class Config:
         from_attributes = True
